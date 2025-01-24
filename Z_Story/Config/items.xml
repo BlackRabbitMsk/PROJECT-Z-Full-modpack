@@ -1,0 +1,227 @@
+<config>
+	
+	<append xpath="/items">
+	
+		<item name="bookStartSupplyCache">
+			<property name="Tags" value="projectZ_start"/>
+			<property name="CustomIcon" value="bookWasteTreasuresHoney"/>
+			<property name="CustomIconTint" value="FF6666"/>
+			<property name="ItemTypeIcon" value="quest"/>
+			<property name="DescriptionKey" value="bookStartSupplyCacheDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Stacknumber" value="5"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourcePaper"/>
+			<property name="Group" value="Books,questItem"/>
+			<property class="Action0">
+				<property name="Class" value="Quest"/>
+				<property name="QuestGiven" value="StartSupplyCache"/>
+				<property name="Delay" value="0.5"/>
+				<property name="UseAnimation" value="false"/>
+			</property>
+		</item>
+		
+		<item name="bookRareSamples1">
+			<property name="Tags" value="projectZ_start"/>
+			<property name="CustomIcon" value="bookWasteTreasuresHoney"/>
+			<property name="CustomIconTint" value="5AFF75"/>
+			<property name="ItemTypeIcon" value="quest"/>
+			<property name="DescriptionKey" value="bookRareSamples1Desc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Stacknumber" value="5"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourcePaper"/>
+			<property name="Group" value="Books,questItem"/>
+			<property class="Action0">
+				<property name="Class" value="Quest"/>
+				<property name="QuestGiven" value="RareSamples1"/>
+				<property name="Delay" value="0.5"/>
+				<property name="UseAnimation" value="false"/>
+			</property>
+		</item>
+		
+		<item name="bookRareSamples2">
+			<property name="Tags" value="projectZ_start"/>
+			<property name="CustomIcon" value="bookWasteTreasuresHoney"/>
+			<property name="CustomIconTint" value="5AFF75"/>
+			<property name="ItemTypeIcon" value="quest"/>
+			<property name="DescriptionKey" value="bookRareSamples2Desc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Stacknumber" value="5"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourcePaper"/>
+			<property name="Group" value="Books,questItem"/>
+			<property class="Action0">
+				<property name="Class" value="Quest"/>
+				<property name="QuestGiven" value="RareSamples2"/>
+				<property name="Delay" value="0.5"/>
+				<property name="UseAnimation" value="false"/>
+			</property>
+		</item>
+		
+		<item name="bookRareSamples3">
+			<property name="Tags" value="projectZ_start"/>
+			<property name="CustomIcon" value="bookWasteTreasuresHoney"/>
+			<property name="CustomIconTint" value="5AFF75"/>
+			<property name="ItemTypeIcon" value="quest"/>
+			<property name="DescriptionKey" value="bookRareSamples3Desc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Stacknumber" value="5"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourcePaper"/>
+			<property name="Group" value="Books,questItem"/>
+			<property class="Action0">
+				<property name="Class" value="Quest"/>
+				<property name="QuestGiven" value="RareSamples3"/>
+				<property name="Delay" value="0.5"/>
+				<property name="UseAnimation" value="false"/>
+			</property>
+		</item>
+		
+		<item name="bookRareSamples4">
+			<property name="Tags" value="projectZ_start"/>
+			<property name="CustomIcon" value="bookWasteTreasuresHoney"/>
+			<property name="CustomIconTint" value="5AFF75"/>
+			<property name="ItemTypeIcon" value="quest"/>
+			<property name="DescriptionKey" value="bookRareSamples4Desc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Stacknumber" value="5"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourcePaper"/>
+			<property name="Group" value="Books,questItem"/>
+			<property class="Action0">
+				<property name="Class" value="Quest"/>
+				<property name="QuestGiven" value="RareSamples4"/>
+				<property name="Delay" value="0.5"/>
+				<property name="UseAnimation" value="false"/>
+			</property>
+		</item>
+		
+		<item name="bookRareSamples5">
+			<property name="Tags" value="projectZ_start"/>
+			<property name="CustomIcon" value="bookWasteTreasuresHoney"/>
+			<property name="CustomIconTint" value="5AFF75"/>
+			<property name="ItemTypeIcon" value="quest"/>
+			<property name="DescriptionKey" value="bookRareSamples5Desc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Stacknumber" value="5"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourcePaper"/>
+			<property name="Group" value="Books,questItem"/>
+			<property class="Action0">
+				<property name="Class" value="Quest"/>
+				<property name="QuestGiven" value="RareSamples5"/>
+				<property name="Delay" value="0.5"/>
+				<property name="UseAnimation" value="false"/>
+			</property>
+		</item>
+		
+		<item name="bookRareSamples6">
+			<property name="Tags" value="projectZ_start"/>
+			<property name="CustomIcon" value="bookWasteTreasuresHoney"/>
+			<property name="CustomIconTint" value="5AFF75"/>
+			<property name="ItemTypeIcon" value="quest"/>
+			<property name="DescriptionKey" value="bookRareSamples6Desc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Stacknumber" value="5"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourcePaper"/>
+			<property name="Group" value="Books,questItem"/>
+			<property class="Action0">
+				<property name="Class" value="Quest"/>
+				<property name="QuestGiven" value="RareSamples6"/>
+				<property name="Delay" value="0.5"/>
+				<property name="UseAnimation" value="false"/>
+			</property>
+		</item>
+		
+		<item name="bookRareSamples7">
+			<property name="Tags" value="projectZ_start"/>
+			<property name="CustomIcon" value="bookWasteTreasuresHoney"/>
+			<property name="CustomIconTint" value="5AFF75"/>
+			<property name="ItemTypeIcon" value="quest"/>
+			<property name="DescriptionKey" value="bookRareSamples7Desc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Stacknumber" value="5"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourcePaper"/>
+			<property name="Group" value="Books,questItem"/>
+			<property class="Action0">
+				<property name="Class" value="Quest"/>
+				<property name="QuestGiven" value="RareSamples7"/>
+				<property name="Delay" value="0.5"/>
+				<property name="UseAnimation" value="false"/>
+			</property>
+		</item>
+		
+		<item name="bookRareSamples8">
+			<property name="Tags" value="projectZ_start"/>
+			<property name="CustomIcon" value="bookWasteTreasuresHoney"/>
+			<property name="CustomIconTint" value="5AFF75"/>
+			<property name="ItemTypeIcon" value="quest"/>
+			<property name="DescriptionKey" value="bookRareSamples8Desc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Stacknumber" value="5"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourcePaper"/>
+			<property name="Group" value="Books,questItem"/>
+			<property class="Action0">
+				<property name="Class" value="Quest"/>
+				<property name="QuestGiven" value="RareSamples8"/>
+				<property name="Delay" value="0.5"/>
+				<property name="UseAnimation" value="false"/>
+			</property>
+		</item>
+		
+		<item name="bookRareSamples9">
+			<property name="Tags" value="projectZ_start"/>
+			<property name="CustomIcon" value="bookWasteTreasuresHoney"/>
+			<property name="CustomIconTint" value="5AFF75"/>
+			<property name="ItemTypeIcon" value="quest"/>
+			<property name="DescriptionKey" value="bookRareSamples9Desc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Stacknumber" value="5"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourcePaper"/>
+			<property name="Group" value="Books,questItem"/>
+			<property class="Action0">
+				<property name="Class" value="Quest"/>
+				<property name="QuestGiven" value="RareSamples9"/>
+				<property name="Delay" value="0.5"/>
+				<property name="UseAnimation" value="false"/>
+			</property>
+		</item>
+		
+		<item name="bookRareSamples10">
+			<property name="Tags" value="projectZ_start"/>
+			<property name="CustomIcon" value="bookWasteTreasuresHoney"/>
+			<property name="CustomIconTint" value="5AFF75"/>
+			<property name="ItemTypeIcon" value="quest"/>
+			<property name="DescriptionKey" value="bookRareSamples10Desc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Stacknumber" value="5"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourcePaper"/>
+			<property name="Group" value="Books,questItem"/>
+			<property class="Action0">
+				<property name="Class" value="Quest"/>
+				<property name="QuestGiven" value="RareSamples10"/>
+				<property name="Delay" value="0.5"/>
+				<property name="UseAnimation" value="false"/>
+			</property>
+		</item>
+		
+	</append>
+	
+</config>

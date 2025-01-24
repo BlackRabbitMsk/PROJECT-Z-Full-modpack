@@ -1,0 +1,302 @@
+<config>
+	
+	<insertAfter  xpath="/quests/quest[@id='quest_whiteRiverCitizen1']/reward[@type='Exp']">
+		<reward type="Item" id="bookRareSamples1" value="1"/>
+	</insertAfter>
+	
+	<append xpath="/quests" >
+	 	
+		<quest id="StartSupplyCache">
+			<property name="name_key" value="StartSupplyCacheName"/>
+			<property name="description_key" value="StartSupplyCacheOffer"/>
+			<property name="subtitle_key" value="quest_StartSupplyCache_subtitle"/>
+			<property name="statement_key" value="quest_StartSupplyCache_statement"/>
+			<property name="response_key" value="quest_StartSupplyCache_response"/>
+			<property name="icon" value="Quest" />
+			<property name="repeatable" value="false"/>
+			<property name="shareable" value="false"/>
+			<variable name="difficulty" value="3"/>
+			<property name="add_to_tier_complete" value="false"/>
+			<property name="category_key" value="quest"/>	
+			<property name="offer_key" value="StartSupplyCacheOffer"/>
+			
+			<objective type="TreasureChest" phase="1">
+				<property name="block" value="cntBuriedLootStashChest"/>
+				<property name="alt_block" value="cntBuriedLootStashChestInsecure"/>
+				<property name="distance" value="500-800"/>
+				<property name="default_radius" value="5"/>
+				<property name="nav_object" value="treasure"/>
+				<property name="direct_nav_object" value="treasure_direct"/>
+				<property name="blocks_per_reduction" value="7"/>
+				<property name="radius_reduction_sound" value="ui_radius_shrink"/>
+				<property name="explosion_event" value="quest_treasure_explosion_horde"/>
+			</objective>
+
+			<action type="SpawnGSEnemy" phase="2">
+				<property name="animalDireWolf"/>
+				<property name="count" value="1"/>
+			</action>
+		</quest>
+		
+		<!-- *** xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+		<!-- Rare Samples -->
+		<!-- *** xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+		
+		<quest id="RareSamples1">
+			<property name="name_key" value="RareSamples1Name"/>
+			<property name="description_key" value="RareSamples1Desc"/>
+			<property name="subtitle_key" value="quest_radio"/>
+			<property name="statement_key" value="quest_radio"/>
+			<property name="response_key" value="quest_radio"/>
+			<property name="icon" value="Quest" />
+			<property name="repeatable" value="true"/>
+			<property name="shareable" value="false"/>
+			<property name="add_to_tier_complete" value="false"/>
+			<property name="category_key" value="quest"/>	
+			<property name="offer_key" value="RareSamples1Offer"/>
+			<property name="icon" value="ui_game_symbol_quest"/>
+			
+			<objective type="Craft" id="radioStation" value="1" phase="1"/>
+			<objective type="BlockPlace" id="radioStation" value="1" phase="2"/>
+			
+			<reward type="Exp" value="2500"/>
+			<reward type="Item" id="bookRareSamples2" count="1"/>
+		</quest>
+		
+		<quest id="RareSamples2">
+			<property name="name_key" value="RareSamples2Name"/>
+			<property name="description_key" value="RareSamples2Desc"/>
+			<property name="subtitle_key" value="quest_suprequest"/>
+			<property name="statement_key" value="quest_suprequest"/>
+			<property name="response_key" value="quest_suprequest"/>
+			<property name="icon" value="Quest" />
+			<property name="repeatable" value="true"/>
+			<property name="shareable" value="false"/>
+			<property name="add_to_tier_complete" value="false"/>
+			<property name="category_key" value="quest"/>	
+			<property name="offer_key" value="RareSamples2Offer"/>
+			<property name="icon" value="ui_game_symbol_airdrop"/>
+					
+			<objective type="Craft" id="resourceResourceSet" value="10" phase="1"/>
+			<objective type="Craft" id="requestExperimentalAlloysSmall" value="1" phase="2"/>
+			<objective type="FetchKeep" id="resourceExperimentalAlloys" value="10" phase="3"/>
+
+			<reward type="Exp" value="2500"/>
+			<reward type="Item" id="bookRareSamples3" count="1"/>
+			<reward type="Item" id="modSurgicalBladeSchematic" count="1"/>
+		</quest>
+		
+		<quest id="RareSamples3">
+			<property name="name_key" value="RareSamples3Name"/>
+			<property name="description_key" value="RareSamples3Desc"/>
+			<property name="subtitle_key" value="quest_craftmod"/>
+			<property name="statement_key" value="quest_craftmod"/>
+			<property name="response_key" value="quest_craftmod"/>
+			<property name="icon" value="Quest" />
+			<property name="repeatable" value="true"/>
+			<property name="shareable" value="false"/>
+			<property name="add_to_tier_complete" value="false"/>
+			<property name="category_key" value="quest"/>	
+			<property name="offer_key" value="RareSamples3Offer"/>
+			<property name="icon" value="ui_game_symbol_quest"/>
+					
+			<objective type="Craft" id="modSurgicalBlade" value="1" phase="1"/>
+			
+			<reward type="Exp" value="2500"/>
+			<reward type="Item" id="bookRareSamples4" count="1"/>
+		</quest>
+		
+		<quest id="RareSamples4">
+			<property name="name_key" value="RareSamples4Name"/>
+			<property name="description_key" value="RareSamples4Desc"/>
+			<property name="subtitle_key" value="quest_killradzombie"/>
+			<property name="statement_key" value="quest_killradzombie"/>
+			<property name="response_key" value="quest_killradzombie"/>
+			<property name="icon" value="Quest" />
+			<property name="repeatable" value="true"/>
+			<property name="shareable" value="false"/>
+			<property name="add_to_tier_complete" value="false"/>
+			<property name="category_key" value="quest"/>	
+			<property name="offer_key" value="RareSamples4Offer"/>
+			<property name="icon" value="ui_game_symbol_zombie"/>
+			
+			<objective type="EntityKill" value="25" phase="1">
+				<property name="target_tags" value="elite"/>
+				<property name="objective_name_key" value="ObjectiveElite_key"/>
+			</objective>
+			
+			<objective type="EntityKill" value="50" phase="1">
+				<property name="target_tags" value="radiated"/>
+				<property name="objective_name_key" value="ObjectiveRadiates_key"/>
+			</objective>
+			
+			<objective type="FetchKeep" id="resourceMutationSamples" value="100" phase="1"/>
+			
+			<reward type="Exp" value="15000"/>
+			<reward type="Item" id="bookRareSamples5" count="1"/>
+		</quest>
+		
+		<quest id="RareSamples5">
+			<property name="name_key" value="RareSamples5Name"/>
+			<property name="description_key" value="RareSamples5Desc"/>
+			<property name="subtitle_key" value="quest_rareammo"/>
+			<property name="statement_key" value="quest_rareammo"/>
+			<property name="response_key" value="quest_rareammo"/>
+			<property name="icon" value="Quest" />
+			<property name="repeatable" value="true"/>
+			<property name="shareable" value="false"/>
+			<property name="add_to_tier_complete" value="false"/>
+			<property name="category_key" value="quest"/>	
+			<property name="offer_key" value="RareSamples5Offer"/>
+			<property name="icon" value="ui_game_symbol_airdrop"/>
+			
+			<objective type="Craft" id="ammo762SmallCase100_Quest" value="1" phase="1"/>
+			<objective type="FetchKeep" id="ammo762mmBulletDU" value="100" phase="2"/>
+			
+			<reward type="Exp" value="2500"/>
+			<reward type="Item" id="bookRareSamples6" count="1"/>
+		</quest>
+		
+		<quest id="RareSamples6">
+			<property name="name_key" value="RareSamples6Name"/>
+			<property name="description_key" value="RareSamples6Desc"/>
+			<property name="subtitle_key" value="quest_zombie_minibosses"/>
+			<property name="statement_key" value="quest_zombie_minibosses"/>
+			<property name="response_key" value="quest_zombie_minibosses"/>
+			<property name="icon" value="Quest" />
+			<property name="repeatable" value="true"/>
+			<property name="shareable" value="false"/>
+			<property name="add_to_tier_complete" value="false"/>
+			<property name="category_key" value="quest"/>	
+			<property name="offer_key" value="RareSamples6Offer"/>
+			<property name="icon" value="ui_game_symbol_zombie"/>
+					
+			<objective type="EntityKill" value="2" phase="1">
+				<property name="target_tags" value="bossDevourer"/>
+				<property name="objective_name_key" value="ObjectiveWolf_key"/>
+			</objective>
+			
+			<objective type="EntityKill" value="2" phase="1">
+				<property name="target_tags" value="bossBearDaddy"/>
+				<property name="objective_name_key" value="ObjectiveBear_key"/>
+			</objective>
+			
+			<objective type="EntityKill" value="2" phase="1">
+				<property name="target_tags" value="bossGargul"/>
+				<property name="objective_name_key" value="ObjectiveVulture_key"/>
+			</objective>
+			
+			<objective type="FetchKeep" id="resourceMutationSamples" value="250" phase="1"/>
+			
+			<reward type="Exp" value="30000"/>
+			<reward type="Item" id="bookRareSamples7" count="1"/>
+		</quest>
+		
+		<quest id="RareSamples7">
+			<property name="name_key" value="RareSamples7Name"/>
+			<property name="description_key" value="RareSamples7Desc"/>
+			<property name="subtitle_key" value="quest_RadResist"/>
+			<property name="statement_key" value="quest_RadResist"/>
+			<property name="response_key" value="quest_RadResist"/>
+			<property name="icon" value="Quest" />
+			<property name="repeatable" value="true"/>
+			<property name="shareable" value="false"/>
+			<property name="add_to_tier_complete" value="false"/>
+			<property name="category_key" value="quest"/>	
+			<property name="offer_key" value="RareSamples7Offer"/>
+			<property name="icon" value="ui_game_symbol_radiation"/>
+					
+			<objective type="Craft" id="armorNomadHelmet" value="1" phase="1"/>
+			<objective type="Craft" id="armorNomadOutfit" value="1" phase="1"/>
+			<objective type="Craft" id="armorNomadGloves" value="1" phase="1"/>
+			<objective type="Craft" id="armorNomadBoots" value="1" phase="1"/>
+			
+			<objective type="Wear" id="armorNomadHelmet" phase="2"/>
+			<objective type="Wear" id="armorNomadOutfit" phase="2"/>
+			<objective type="Wear" id="armorNomadGloves" phase="2"/>
+			<objective type="Wear" id="armorNomadBoots" phase="2"/>
+			
+			<reward type="Exp" value="5000"/>
+			<reward type="Item" id="bookRareSamples8" count="1"/>
+		</quest>
+		
+		<quest id="RareSamples8">
+			<property name="name_key" value="RareSamples8Name"/>
+			<property name="description_key" value="RareSamples8Desc"/>
+			<property name="subtitle_key" value="quest_RadResist"/>
+			<property name="statement_key" value="quest_RadResist"/>
+			<property name="response_key" value="quest_RadResist"/>
+			<property name="icon" value="Quest" />
+			<property name="repeatable" value="true"/>
+			<property name="shareable" value="false"/>
+			<property name="add_to_tier_complete" value="false"/>
+			<property name="category_key" value="quest"/>	
+			<property name="offer_key" value="RareSamples8Offer"/>
+			<property name="icon" value="ui_game_symbol_radiation"/>
+					
+			<objective type="Craft" id="modArmorARResistHelmet" value="1" phase="1"/>
+			<objective type="Craft" id="modArmorAROutfit" value="1" phase="1"/>
+			<objective type="Craft" id="modArmorARGloves" value="1" phase="1"/>
+			<objective type="Craft" id="modArmorARBoots" value="1" phase="1"/>
+			
+			<objective type="Craft" id="drugAntiRadPills" value="5" phase="2"/>
+			
+			<reward type="Exp" value="5000"/>
+			<reward type="Item" id="bookRareSamples9" count="1"/>
+		</quest>
+		
+		<quest id="RareSamples9">
+			<property name="name_key" value="RareSamples9Name"/>
+			<property name="description_key" value="RareSamples9Desc"/>
+			<property name="subtitle_key" value="quest_zombie_bosses"/>
+			<property name="statement_key" value="quest_zombie_bosses"/>
+			<property name="response_key" value="quest_zombie_bosses"/>
+			<property name="icon" value="Quest" />
+			<property name="repeatable" value="true"/>
+			<property name="shareable" value="false"/>
+			<property name="add_to_tier_complete" value="false"/>
+			<property name="category_key" value="quest"/>	
+			<property name="offer_key" value="RareSamples9Offer"/>
+			<property name="icon" value="ui_game_symbol_zombie"/>
+			
+			<objective type="EntityKill" value="1" phase="1">
+				<property name="target_tags" value="bossBull"/>
+				<property name="objective_name_key" value="ObjectiveBull_key"/>
+			</objective>
+			
+			<objective type="EntityKill" value="1" phase="1">
+				<property name="target_tags" value="bossShocker"/>
+				<property name="objective_name_key" value="ObjectiveShocker_key"/>
+			</objective>
+			
+			<objective type="EntityKill" value="1" phase="1">
+				<property name="target_tags" value="bossVeteran"/>
+				<property name="objective_name_key" value="ObjectiveVeteran_key"/>
+			</objective>
+			
+			<objective type="FetchKeep" id="resourceMutationSamples" value="500" phase="1"/>
+			
+			<reward type="Exp" value="75000"/>
+			<reward type="Item" id="bookRareSamples10" count="1"/>
+		</quest>
+		
+		<quest id="RareSamples10">
+			<property name="name_key" value="RareSamples10Name"/>
+			<property name="description_key" value="RareSamples10Desc"/>
+			<property name="subtitle_key" value="quest_wasteland"/>
+			<property name="statement_key" value="quest_wasteland"/>
+			<property name="response_key" value="quest_wasteland"/>
+			<property name="icon" value="Quest" />
+			<property name="repeatable" value="true"/>
+			<property name="shareable" value="false"/>
+			<property name="add_to_tier_complete" value="false"/>
+			<property name="category_key" value="quest"/>	
+			<property name="offer_key" value="RareSamples10Offer"/>
+			<property name="icon" value="ui_game_symbol_check"/>
+			
+			<reward type="Exp" value="2500"/>
+		</quest>
+		
+	</append>
+			
+</config>
