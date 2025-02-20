@@ -125,6 +125,8 @@
 
 	<!-- Ressources -->
 	
+	<set xpath="/items/item[@name='resourceGunPowder']/property[@name='Stacknumber']/@value">6000</set>
+	<set xpath="/items/item[@name='resourceRockSmallBundle']/property[@name='Stacknumber']/@value">25</set>
 	<set xpath="/items/item[@name='resourceMetalPipe']/property[@name='Stacknumber']/@value">2000</set>
 	<set xpath="/items/item[@name='smallEngine']/property[@name='Stacknumber']/@value">10</set>
 	<set xpath="/items/item[@name='resourceRepairKit']/property[@name='Stacknumber']/@value">50</set>

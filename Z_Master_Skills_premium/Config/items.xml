@@ -2710,7 +2710,7 @@
 		<property name="Upgrade_hit_offset" value="-5"/>
 		<property name="Repair_action_sound" value="nailgun_fire"/>
 		<property name="Upgrade_action_sound" value="nailgun_fire"/>
-		<property name="Allowed_upgrade_items" value="resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceConcreteMix,resourceCobblestones,ironDoorBlockVariantHelper,ironDoorDoubleBlockVariantHelper,vaultDoor01,vaultDoor01Double,ironHatchBlockVariantHelper,vaultHatch01,cellarDoorDoubleIron,cellarDoorDoubleSteel,shuttersIronBlockVariantHelper,shuttersSteelBlockVariantHelper,resourceYuccaFibers,resourceCloth,resourceScrapPolymers,resourceNail,glassBulletproofBlockVariantHelper"/>
+		<property name="Allowed_upgrade_items" value="resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceConcreteMix,resourceCobblestones,ironDoorBlockVariantHelper,ironDoorDoubleBlockVariantHelper,vaultDoor01,vaultDoor01Double,ironHatchBlockVariantHelper,vaultHatch01,cellarDoorDoubleIron,cellarDoorDoubleSteel,shuttersIronBlockVariantHelper,shuttersSteelBlockVariantHelper,resourceYuccaFibers,resourceCloth,resourceScrapPolymers,resourceNail,glassBulletproofBlockVariantHelper,resourceDurablAlloys"/>
 		<!--<property name="Restricted_upgrade_items" value="concrete"/>-->
 	</property>
 	<effect_group name="meleeToolRepairT4NailgunImp"> <!-- meleeToolRepairT3Nailgun -->
@@ -2759,6 +2759,7 @@
 		<property name="CustomIcon" value="bookTacticalWarfare"/>
 		<property name="CustomIconTint" value="8692FF"/>
 		<property name="DescriptionKey" value="masterMachineGunsSkillMagazineDesc"/>
+		<property name="Group" value="Books,BooksOnly,TCReading,DonateBooks"/>
 		<property name="UnlockedBy" value="perkMachineGunner"/>
 		
 		<property name="Unlocks" value="MasterCraftingMachineGuns"/>
@@ -2782,6 +2783,7 @@
 		<property name="CustomIconTint" value="8692FF"/>
 		<property name="DescriptionKey" value="MasterShotgunsSkillMagazineDesc"/>
 		<property name="UnlockedBy" value="perkBoomstick"/>
+		<property name="Group" value="Books,BooksOnly,TCReading,DonateBooks"/>
 		
 		<property name="Unlocks" value="MasterCraftingShotgun"/>
 		
@@ -2804,6 +2806,7 @@
 		<property name="CustomIconTint" value="8692FF"/>
 		<property name="DescriptionKey" value="MasterRiflesSkillMagazineDesc"/>
 		<property name="UnlockedBy" value="perkDeadEye"/>
+		<property name="Group" value="Books,BooksOnly,TCReading,DonateBooks"/>
 		
 		<property name="Unlocks" value="MasterCraftingRifle"/>
 		
@@ -2826,6 +2829,7 @@
 		<property name="CustomIconTint" value="8692FF"/>
 		<property name="DescriptionKey" value="MasterHandgunsSkillMagazineDesc"/>
 		<property name="UnlockedBy" value="perkGunslinger"/>
+		<property name="Group" value="Books,BooksOnly,TCReading,DonateBooks"/>
 		
 		<property name="Unlocks" value="MasterCraftingHandguns"/>
 		
@@ -2848,6 +2852,7 @@
 		<property name="CustomIconTint" value="8692FF"/>
 		<property name="DescriptionKey" value="MasterBowsSkillMagazineDesc"/>
 		<property name="UnlockedBy" value="perkArchery"/>
+		<property name="Group" value="Books,BooksOnly,TCReading,DonateBooks"/>
 		
 		<property name="Unlocks" value="MasterCraftingBows"/>
 		
@@ -2870,6 +2875,7 @@
 		<property name="CustomIconTint" value="8692FF"/>
 		<property name="DescriptionKey" value="MasterWorkstationsMagazineDesc"/>
 		<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+		<property name="Group" value="Books,BooksOnly,TCReading,DonateBooks"/>
 		
 		<property name="Unlocks" value="MasterWorkstations"/>
 		
@@ -2892,6 +2898,7 @@
 		<property name="CustomIconTint" value="8692FF"/>
 		<property name="DescriptionKey" value="MasterWorkstationsMagazineDesc"/>
 		<property name="UnlockedBy" value="perkMiner69r,perkAdvancedEngineering"/>
+		<property name="Group" value="Books,BooksOnly,TCReading,DonateBooks"/>
 		
 		<property name="Unlocks" value="MasterTools"/>
 		
@@ -2914,6 +2921,7 @@
 		<property name="CustomIconTint" value="8692FF"/>
 		<property name="DescriptionKey" value="MasterWorkstationsMagazineDesc"/>
 		<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+		<property name="Group" value="Books,BooksOnly,TCReading,DonateBooks"/>
 		
 		<property name="Unlocks" value="MasterElectrician"/>
 		
@@ -2936,6 +2944,7 @@
 		<property name="CustomIconTint" value="8692FF"/>
 		<property name="DescriptionKey" value="MasterHeavyMeleeWeaponMagazineDesc"/>
 		<property name="UnlockedBy" value="perkJavelinMaster,perkSkullCrusher,perkPummelPete"/>
+		<property name="Group" value="Books,BooksOnly,TCReading,DonateBooks"/>
 		
 		<property name="Unlocks" value="MasterHeavyMeleeWeapon"/>
 		
@@ -2958,6 +2967,7 @@
 		<property name="CustomIconTint" value="8692FF"/>
 		<property name="DescriptionKey" value="MasterLightMeleeWeaponMagazineDesc"/>
 		<property name="UnlockedBy" value="perkBrawler,perkDeepCuts,perkElectrocutioner"/>
+		<property name="Group" value="Books,BooksOnly,TCReading,DonateBooks"/>
 		
 		<property name="Unlocks" value="MasterLightMeleeWeapon"/>
 		
@@ -2979,6 +2989,7 @@
 		<property name="CustomIcon" value="bookHomeCookingWeekly"/>
 		<property name="CustomIconTint" value="8692FF"/>
 		<property name="DescriptionKey" value="MasterKitchenMagazineDesc"/>
+		<property name="Group" value="Books,BooksOnly,TCReading,DonateBooks"/>
 		<property name="UnlockedBy" value="perkMasterChef"/>
 		
 		<property name="Unlocks" value="MasterKitchen"/>
@@ -3002,6 +3013,7 @@
 		<property name="CustomIconTint" value="8692FF"/>
 		<property name="DescriptionKey" value="MasterArmorMagazineDesc"/>
 		<property name="UnlockedBy" value="perkHeavyArmor,perkMediumArmor"/>
+		<property name="Group" value="Books,BooksOnly,TCReading,DonateBooks"/>
 		
 		<property name="Unlocks" value="MasterArmor"/>
 		
@@ -3023,6 +3035,7 @@
 		<property name="CustomIcon" value="bookVehicleAdventures"/>
 		<property name="CustomIconTint" value="8692FF"/>
 		<property name="DescriptionKey" value="MasterVehicleMagazineDesc"/>
+		<property name="Group" value="Books,BooksOnly,TCReading,DonateBooks"/>
 		<property name="UnlockedBy" value="perkGreaseMonkey"/>
 		<property name="Unlocks" value="MasterVehicle"/>
 		
@@ -3046,6 +3059,7 @@
 		<property name="DescriptionKey" value="MasterFarmerMagazineDesc"/>
 		<property name="UnlockedBy" value="perkLivingOffTheLand"/>
 		<property name="Unlocks" value="Masterfarmer"/>
+		<property name="Group" value="Books,BooksOnly,TCReading,DonateBooks"/>
 		
 		<effect_group tiered="false">
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="Masterfarmer" level="1"/>
@@ -3905,14 +3919,16 @@
 	
 	<item name="toolAnvilImp">
 		<property name="UnlockedBy" value="MasterWorkstations"/>
+		<property name="Tags" value="toolAnvilImp,workstationSkill"/>
+		
 		<property name="DescriptionKey" value="toolAnvilImpDesc"/>
 		<property name="SellableToTrader" value="false"/>
-		<property name="Tags" value="workstationSkill"/>
+		
 		<property name="HoldType" value="45"/>
 		<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
 		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 		<property name="Material" value="Msteel"/>
-		<property name="Stacknumber" value="1"/> <!-- STK resource -->
+		<property name="Stacknumber" value="1"/>
 		<property name="Weight" value="0"/>
 		<property name="Group" value="Tools/Traps"/>
 		<property name="DisplayType" value="toolAnvil"/>
@@ -3932,7 +3948,7 @@
 	
 	<item name="toolSmallParts">
 		<property name="UnlockedBy" value="MasterWorkstations"/>
-		<property name="Tags" value="workstationSkill"/>
+		<property name="Tags" value="toolSmallParts,workstationSkill"/>
 		<property name="DescriptionKey" value="toolSmallPartsDesc"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="HoldType" value="45"/>
@@ -3964,7 +3980,7 @@
 		<property name="Material" value="Msteel"/>
 		<property name="Stacknumber" value="1"/> <!-- STK resource -->
 		<property name="Weight" value="0"/>
-		<property name="Group" value="Tools/Traps"/>
+		<property name="Group" value="Tools/Traps,donateTools"/>
 		<property name="SoundPickup" value="parts_grab"/>
 		<property name="SoundPlace" value="parts_place"/>
 		<property name="CustomIcon" value="cntToolBoxClosedWhite"/>
@@ -4055,6 +4071,24 @@
 	
 	<!-- *** xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 	<!-- NEW ITEM, Resourses -->
+	
+	<item name="resourceDurablAlloys">
+		<property name="Tags" value="buildingResource"/>
+		<property name="DescriptionKey" value="resourceDurablAlloysDesc"/>
+		<property name="HoldType" value="31"/>
+		<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="CustomIcon" value="resourceForgedSteel"/>
+		<property name="CustomIconTint" value="8692FF"/>
+		<property name="ItemTypeIcon" value="block_upgrade"/>
+		<property name="Material" value="MresourceDurablAlloys"/>
+		<property name="Stacknumber" value="500"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="SoundPickup" value="forgedmetal_grab"/>
+		<property name="SoundPlace" value="forgedmetal_place"/>
+		<property name="Group" value="Resources"/>
+		<property name="UnlockedBy" value="MasterWorkstations"/>
+	</item>
 	
 	<item name="resourceMutationSamples">
 		<property name="Tags" value="rareResource"/>

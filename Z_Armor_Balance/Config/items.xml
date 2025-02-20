@@ -60,8 +60,8 @@
 		
 	<!-- PREACHER HELMET -->
 	<set xpath="/items/item[@name='armorPreacherHelmet']/property[@name='Tags']/@value">head,armor,armorHead,canHaveCosmetic,lightArmor,lightArmorDeg,NoPrimitive</set>
-	<set xpath="/items/item[@name='armorPreacherHelmet']/effect_group/display_value[@name='dBartering']/@value">.04,.08,.12,.16,.2,.3</set>
-	<set xpath="/items/item[@name='armorPreacherHelmet']/effect_group/passive_effect[@name='BarteringBuying']/@value">.04,.08,.12,.16,.2,.3</set>
+	<set xpath="/items/item[@name='armorPreacherHelmet']/effect_group/display_value[@name='dBartering']/@value">.02,.04,.06,.08,.1,.15</set>
+	<set xpath="/items/item[@name='armorPreacherHelmet']/effect_group/passive_effect[@name='BarteringBuying']/@value">.02,.04,.06,.08,.1,.15</set>
 	
 	<!-- PREACHER OUTFIT -->
 	<set xpath="/items/item[@name='armorPreacherOutfit']/property[@name='Tags']/@value">upperbody,chest,armor,armorChest,canHaveCosmetic,lightArmor,lightArmorDeg,NoPrimitive</set>
@@ -209,8 +209,8 @@
 		<!-- Add new property -->
 	<append xpath="/items/item[@name='armorEnforcerHelmet']">
 		<effect_group>
-			<passive_effect name="BarteringSelling" operation="base_add" value=".04,.08,.12,.16,.2,.3" tier="1,2,3,4,5,6" />
-			<display_value name="dBarteringSelling" value=".04,.08,.12,.16,.2,.3" tier="1,2,3,4,5,6"/>
+			<passive_effect name="BarteringSelling" operation="base_add" value=".02,.04,.06,.08,.1,.15" tier="1,2,3,4,5,6" />
+			<display_value name="dBarteringSelling" value=".02,.04,.06,.08,.1,.15" tier="1,2,3,4,5,6"/>
 		</effect_group>
 	</append>
 	
@@ -415,7 +415,11 @@
 	
 	<!-- RANGER -->
 		
-	<!-- RANGER HELMET / WITHOUT CHANGES -->
+	<!-- RANGER HELMET -->
+	
+	<set xpath="/items/item[@name='armorRangerHelmet']/effect_group/passive_effect[@name='BarteringBuying']/@value">.01,.02,.03,.04,.05,.1</set>
+	<set xpath="/items/item[@name='armorRangerHelmet']/effect_group/passive_effect[@name='BarteringSelling']/@value">.01,.02,.03,.04,.05,.1</set>
+	
 	<!-- RANGER OUTFIT -->
 	<set xpath="/items/item[@name='armorRangerOutfit']/effect_group/passive_effect[@name='HealthMax']/@value">4,8,12,16,20,30</set>
 	<set xpath="/items/item[@name='armorRangerOutfit']/effect_group/display_value[@name='dHealthMax']/@value">4,8,12,16,20,30</set>

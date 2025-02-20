@@ -2,6 +2,14 @@
 	
 	<append xpath="/recipes">
 		
+		<!-- Durable alloys -->
+		<recipe name="resourceDurablAlloys" count="1" craft_time="15" craft_area="workbenchImp" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="20"/>
+			<ingredient name="resourceUltraStrengthAlloys" count="6"/>
+			<ingredient name="resourceUltraLightAlloys" count="3"/>
+		</recipe>
+		
+		
 		<!-- Improved electric -->
 		
 		<recipe name="electricwirerelayImp" count="1" craft_time="60" craft_area="workbench" tags="learnable,workbenchCrafting">
@@ -103,12 +111,12 @@
 		
 		<recipe name="solarCell" count="1" craft_time="1500" craft_area="workbench" tags="learnable,workbenchCrafting">
 			<ingredient name="resourceElectricPartsImp" count="10"/>
-			<ingredient name="resourceBrokenGlass" count="100"/>
+			<ingredient name="glassBlockVariantHelper" count="100"/>
 			<ingredient name="resourceScrapPolymers" count="50"/>
 			<ingredient name="resourceForgedSteel" count="0"/>
 			<effect_group>
 				<passive_effect name="CraftingIngredientCount" level="2,6" operation="base_add" value="3,15" tags="resourceElectricPartsImp"/>
-				<passive_effect name="CraftingIngredientCount" level="2,6" operation="base_add" value="50,250" tags="resourceBrokenGlass"/>
+				<passive_effect name="CraftingIngredientCount" level="2,6" operation="base_add" value="50,250" tags="glassBlockVariantHelper"/>
 				<passive_effect name="CraftingIngredientCount" level="2,6" operation="base_add" value="30,150" tags="resourceScrapPolymers"/>
 				<passive_effect name="CraftingIngredientCount" level="5,6" operation="base_add" value="10,50" tags="resourceForgedSteel"/>
 			</effect_group>
@@ -263,7 +271,7 @@
 		</recipe>
 		
 		<recipe name="toolDewFilter" count="1" craft_time="180" tags="learnable,workbenchCrafting">
-			<ingredient name="resourceBrokenGlass" count="20"/>
+			<ingredient name="glassBlockVariantHelper" count="20"/>
 			<ingredient name="resourceCoal" count="3000"/>
 			<ingredient name="resourceCloth" count="500"/>
 			<ingredient name="resourceScrapPolymers" count="1000"/>			

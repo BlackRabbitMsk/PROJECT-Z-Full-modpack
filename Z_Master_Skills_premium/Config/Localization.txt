@@ -1,5 +1,12 @@
 Key,Source,Context,Changes,English,Russian
 
+alloysShapes:VariantHelper,blocks,Block,,Durable alloys shapes,Формы из прочных сплавов
+resourceDurablAlloys,items,buildingResource,,Durable alloys,Прочные сплавы
+resourceDurablAlloysDesc,items,buildingResource,,"Used to improve steel blocks\n\nSignificantly increases the block's strength reserve, as well as its resistance to explosions\n\n[DECEA3]Warning: Upgrade only available with the Improved Nailgun[-]","Используются для улучшения стальных блоков\n\nЗначительно увеличивают запас прочности блока, а также его сопротивление в взрывам\n\n[DECEA3]Внимание! Улучшение доступно только с помощью Улучшенного Гвоздомета[-]"
+materialMAlloys_shapes,blocks,Block,,Durable alloys,Прочные сплавы
+alloysBlockGroupDesc,blocks,Block,,"The most durable type of block. Significantly increased durability and resistance to explosions.","Самый прочный тип блоков. Значительно увеличена прочность и сопротивление взрывам."
+
+
 xuiAccessories,UI,XUI,,Accessories,Принадлежности
 statWeaponHandling,ui_display,Item stat,,Weapon Handling,Обращение с оружием
 statControlResist,ui_display,Item stat,,"Resistance (Stun, Shock)","Сопротивление (Стан, Шок)"
@@ -493,11 +500,11 @@ Pumpkin_Bundle,items,Plants,,[DECEA3]Hydroponic[-] Pumpkin,Тыква [DECEA3]Г
 Pumpkin_BundleDesc,items,Plants,,"Pumpkin Harvest from Hydroponic Station\n\nUnpack the kit to get [DECEA3]25[-] units of plant","Урожай тыквы с гидропонной станции\n\nРаспокуйте набор чтобы получить [DECEA3]25[-] единиц растения"
 
 SeedlingMushroom,blocks,Farming,,Mushroom (Seedling),Грибы (Рассада)
-SeedlingYucca,blocks,Farming,,Yucca (Seedling),>Юкка (Рассада)
-SeedlingCotton,blocks,Farming,,Cotton (Seedling),>Хлопок (Рассада)
-SeedlingCoffee,blocks,Farming,,Coffee (Seedling),>Кофе (Рассада)
-SeedlingGoldenrod,blocks,Farming,,Goldenrod (Seedling),>Золотарник (Рассада)
-SeedlingAloe,blocks,Farming,,Aloe (Seedling),>Алое (Рассада)
+SeedlingYucca,blocks,Farming,,Yucca (Seedling),Юкка (Рассада)
+SeedlingCotton,blocks,Farming,,Cotton (Seedling),Хлопок (Рассада)
+SeedlingCoffee,blocks,Farming,,Coffee (Seedling),Кофе (Рассада)
+SeedlingGoldenrod,blocks,Farming,,Goldenrod (Seedling),Золотарник (Рассада)
+SeedlingAloe,blocks,Farming,,Aloe (Seedling),Алое (Рассада)
 SeedlingBlueberry,blocks,Farming,,Blueberry (Seedling),Черника (Рассада)
 SeedlingPotato,blocks,Farming,,Potato (Seedling),Картошка (Рассада)
 SeedlingChrysanthemum,blocks,Farming,,Chrysanthemum (Seedling),Хризантема (Рассада)

@@ -1,6 +1,8 @@
 <config>
+
+	<remove xpath="/blocks/block[@name='steelShapes']" />
 	
-	<append xpath="/blocks">
+<append xpath="/blocks">
 	
 	<block name="forgeImp">
 		<!-- Class -->
@@ -65,7 +67,7 @@
 		<!-- Sorting -->
 		<property name="SortOrder1" value="B281"/>
 		<property name="SortOrder2" value="0200"/>
-		<property name="Group" value="Building,TCScience,advBuilding"/>
+		<property name="Group" value="Building,TCScience,advBuilding,DonateTools"/>
 		<property name="Tags" value="workstationSkill,twitch_workstation"/>
 		<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
 </block>
@@ -128,7 +130,7 @@
 		<!-- Sorting -->
 		<property name="SortOrder1" value="B281"/>
 		<property name="SortOrder2" value="0300"/>
-		<property name="Group" value="Building,TCScience,advBuilding"/>
+		<property name="Group" value="Building,TCScience,advBuilding,DonateTools"/>
 		<property name="Tags" value="workstationSkill,twitch_workstation"/>
 		<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
 	</block>
@@ -224,7 +226,7 @@
 		<property name="ConvertToItem" value="drinkJarRiverWater"/>
 		<property name="ModdedConvertToItem" value="DewCollectorBundleWater"/>
 		<property name="ModdedConvertSpeed" value="2"/>
-		<property name="ModdedConvertCount" value="5"/>
+		<property name="ModdedConvertCount" value="2"/>
 		<property name="ModTransformNames" value="1,2,3"/>
 		<property name="ModTypes" value="Speed,Count,Type"/>
 		<property name="SellableToTrader" value="false"/>
@@ -243,7 +245,7 @@
 		<property name="DestroyFX" value="blockdestroy_cloth,collector_destroy"/>
 		<property name="SortOrder1" value="B281"/>
 		<property name="SortOrder2" value="0100"/>
-		<property name="Group" value="Basics,Food/Cooking,Building,advBuilding"/>
+		<property name="Group" value="Basics,Food/Cooking,Building,advBuilding,DonateTools"/>
 		<property name="Tags" value="workstationSkill,twitch_workstation"/>
 		<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
 	</block>
@@ -307,7 +309,7 @@
 		<!-- Sorting -->
 		<property name="SortOrder1" value="B281"/>
 		<property name="SortOrder2" value="0400"/>
-		<property name="Group" value="Building,TCScience,advBuilding"/>
+		<property name="Group" value="Building,TCScience,advBuilding,DonateTools"/>
 		<property name="Tags" value="workstationSkill,twitch_workstation"/>
 		<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
 	</block>
@@ -354,7 +356,7 @@
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="SortOrder1" value="B155"/>
 		<property name="SortOrder2" value="0004"/>
-		<property name="Group" value="Science,TCScience"/>
+		<property name="Group" value="Science,TCScience,DonateTools"/>
 		<property name="Tags" value="electricianSkill"/>
 		<property name="FilterTags" value="MC_playerBlocks,SC_electrical"/>
 	</block>
@@ -1955,8 +1957,54 @@
 		<property name="FilterTags" value="MC_playerBlocks,SC_electrical,SC_traps"/>
 	</block>
 	
-	</append>
+	<!-- New block upgrade -->
+	<block name="steelShapes" shapes="All">
+		<property name="DescriptionKey" value="steelBlockGroupDesc"/>
+		<property name="DisplayType" value="blockHardened"/>
+		<property name="Material" value="Msteel_shapes"/>
+		<property name="Shape" value="New"/>
+		<property name="Texture" value="356"/>
+		<property name="UiBackgroundTexture" value="356"/>
+		<property name="EconomicValue" value="160"/>
+		<property class="RepairItems">
+			<property name="resourceForgedSteel" value="8"/>
+		</property>
+		<drop event="Harvest" name="resourceScrapIron" count="15" tag="allHarvest"/>
+		<drop event="Destroy" count="0"/>
+		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="alloysShapes"/>
+			<property name="Item" value="resourceDurablAlloys"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="6"/>
+		</property>
+		<property name="UpgradeSound" value="place_block_metal"/>
+		<property name="Group" value="Building,advBuilding"/>
+		<property name="FilterTags" value="MC_Shapes"/>
+	</block>	
 	
+	<block name="alloysShapes" shapes="All">
+		<property name="DescriptionKey" value="alloysBlockGroupDesc"/>
+		<property name="DisplayType" value="blockHardened"/>
+		<property name="Material" value="MAlloys_shapes"/>
+		<property name="Shape" value="New"/>
+		<property name="Texture" value="352"/>
+		<property name="UiBackgroundTexture" value="352"/>
+		<property name="EconomicValue" value="400"/>
+		<property class="RepairItems">
+			<property name="resourceForgedSteel" value="16"/>
+		</property>
+		<drop event="Harvest" name="resourceScrapIron" count="15" tag="allHarvest"/>
+		<drop event="Destroy" count="0"/>
+		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		<property name="UpgradeSound" value="place_block_metal"/>
+		<property name="Group" value="Building,advBuilding"/>
+		<property name="FilterTags" value="MC_Shapes"/>
+	</block>	
+	
+</append>
+
+	<!-- Adding Fire Trap to Creative Menu -->
 	<set xpath="/blocks/block[@name='flamethrowerTrap']/property[@name='CreativeMode']/@value">Player</set>
 	
 	<!-- Balance base traps -->

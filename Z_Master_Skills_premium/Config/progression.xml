@@ -416,7 +416,8 @@
 				<unlock_entry item="forgeImp" unlock_tier="1" />
 				<unlock_entry item="toolBellowsImp" unlock_tier="2" />
 				<unlock_entry item="toolAnvilImp" unlock_tier="3" />
-			</display_entry>			
+			</display_entry>		
+			<display_entry item="resourceDurablAlloys" unlock_level="25"/>			
 			
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,100" value="1" tags="kitchenStove"/>
@@ -430,6 +431,7 @@
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="21,100" value="1" tags="toolImprovedTools"/>
 				
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="24,100" value="1" tags="cementMixerImp"/>
+				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,100" value="1" tags="resourceDurablAlloys"/>
 				
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="27,100" value="1" tags="forgeImp"/>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="toolBellowsImp"/>
