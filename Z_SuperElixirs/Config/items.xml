@@ -10,7 +10,7 @@
 			<property name="Material" value="Mglass"/>
 			<property name="Stacknumber" value="10"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+			<property name="Group" value="Food/Cooking,CFDrink/Cooking,DonateFood"/>
 			<property name="UnlockedBy" value="craftingFood"/>
 			<property name="SoundPickup" value="grandpas_learnin_grab"/>
 			<property name="SoundPlace" value="grandpas_learnin_place"/>
@@ -112,7 +112,7 @@
 			<property name="Material" value="Mglass"/>
 			<property name="Stacknumber" value="10"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+			<property name="Group" value="Food/Cooking,CFDrink/Cooking,DonateFood"/>
 			<property name="UnlockedBy" value="craftingFood"/>
 			<property name="SoundPickup" value="grandpas_learnin_grab"/>
 			<property name="SoundPlace" value="grandpas_learnin_place"/>
@@ -215,7 +215,7 @@
 			<property name="Material" value="Mglass"/>
 			<property name="Stacknumber" value="10"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+			<property name="Group" value="Food/Cooking,CFDrink/Cooking,DonateFood"/>
 			<property name="UnlockedBy" value="craftingFood"/>
 			<property name="SoundPickup" value="grandpas_learnin_grab"/>
 			<property name="SoundPlace" value="grandpas_learnin_place"/>
@@ -298,7 +298,7 @@
 			<property name="Material" value="Mglass"/>
 			<property name="Stacknumber" value="10"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+			<property name="Group" value="Food/Cooking,CFDrink/Cooking,DonateFood"/>
 			<property name="UnlockedBy" value="craftingFood"/>
 			<property name="SoundPickup" value="grandpas_learnin_grab"/>
 			<property name="SoundPlace" value="grandpas_learnin_place"/>
@@ -381,7 +381,7 @@
 			<property name="Material" value="Mglass"/>
 			<property name="Stacknumber" value="10"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+			<property name="Group" value="Food/Cooking,CFDrink/Cooking,DonateFood"/>
 			<property name="UnlockedBy" value="craftingFood"/>
 			<property name="SoundPickup" value="grandpas_learnin_grab"/>
 			<property name="SoundPlace" value="grandpas_learnin_place"/>

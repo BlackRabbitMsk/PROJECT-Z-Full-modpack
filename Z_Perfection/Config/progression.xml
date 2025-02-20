@@ -682,11 +682,11 @@
 			<effect_group>
 				<passive_effect name="DegradationPerUse" operation="base_subtract" level="1,2,3,4,5" value=".1,.2,.3,.4,.5" tags="heavyArmor"/>
 				
-				<effect_description level="1" desc_key="perkArmorMediumRank1Desc" long_desc_key="perkArmorMediumRank1LongDesc"/>
-				<effect_description level="2" desc_key="perkArmorMediumRank2Desc" long_desc_key="perkArmorMediumRank2LongDesc"/>
-				<effect_description level="3" desc_key="perkArmorMediumRank3Desc" long_desc_key="perkArmorMediumRank3LongDesc"/>
-				<effect_description level="4" desc_key="perkArmorMediumRank4Desc" long_desc_key="perkArmorMediumRank4LongDesc"/>
-				<effect_description level="5" desc_key="perkArmorMediumRank5Desc" long_desc_key="perkArmorMediumRank5LongDesc"/>
+				<effect_description level="1" desc_key="perkArmorMediumRank1Desc" long_desc_key="perkArmorHeavyRank1LongDesc"/>
+				<effect_description level="2" desc_key="perkArmorMediumRank2Desc" long_desc_key="perkArmorHeavyRank2LongDesc"/>
+				<effect_description level="3" desc_key="perkArmorMediumRank3Desc" long_desc_key="perkArmorHeavyRank3LongDesc"/>
+				<effect_description level="4" desc_key="perkArmorMediumRank4Desc" long_desc_key="perkArmorHeavyRank4LongDesc"/>
+				<effect_description level="5" desc_key="perkArmorMediumRank5Desc" long_desc_key="perkArmorHeavyRank5LongDesc"/>
 			</effect_group>
 		</perk>
 		

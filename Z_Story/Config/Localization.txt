@@ -1,5 +1,64 @@
 Key,Source,Context,Changes,English,Russian
 
+note1_startQuest,items,questItem,,Welcome to [FF6666]Project Z![-],Добро пожаловать в [FF6666]Проект Z![-]
+note1_startQuestDesc,items,questItem,,"Here you will find survival on the edge... New armor, weapons, stations, zombies, bosses, pumping and much, much more. The overall gameplay has been significantly expanded and is constantly being improved. Enjoy the game!\n\n[DECEA3]- Black Rabbit[-]","Здесь вас ждет выживание на грани... Новая броня, оружие, станции, зомби, боссы, прокачка и многое, многое другое. Общий процесс игры значительно расширен и постоянно дорабатывается. Приятной игры!\n\n[DECEA3]- Black Rabbit[-]"
+
+startQuest1_statement,Quest,Quest Info,,Find a supply cache,Запустите цепочку заданий «Выживание»
+startQuest1_subtitle,Quest,Quest Info,,Find a supply cache,Запустите цепочку заданий «Выживание»
+
+startQuest1Name,Quest,Quest Info,,Welcome to [FF6666]Project Z![-],Добро пожаловать в [FF6666]Проект Z![-]
+startQuest1Offer,Quest,Quest Info,,"Here you will find survival on the edge... New armor, weapons, stations, zombies, bosses, pumping and much, much more. The overall gameplay has been significantly expanded and is constantly being improved. Enjoy the game!\n\n[DECEA3]- Black Rabbit[-]","Здесь вас ждет выживание на грани... Новая броня, оружие, станции, зомби, боссы, прокачка и многое, многое другое. Общий процесс игры значительно расширен и постоянно дорабатывается. Приятной игры!\n\n[DECEA3]- Black Rabbit[-]"
+
+note2_startQuest,items,questItem,,[DECEA3]Quest[-] Survival [FF6666]Chapter 1[-],[DECEA3]Квест[-] Выживание [FF6666]Глава 1[-]
+note2_startQuestDesc,items,questItem,,"Starts [FF6666]Chapter 1[-] of the quest [FF6666]Survival[-]\n\n[DECEA3]Warning! Canceling this quest will break the entire quest chain. It can only be restarted by an administrator.[-]","Запускает [FF6666]Главу 1[-] задания [FF6666]Выживание[-]\n\n[DECEA3]Внимание! Отмена этого задания прервет всю цепочку квеста. Повторный запуск возможен только с помощью администратора.[-]"
+note3_startQuest,items,questItem,,[DECEA3]Quest[-] Survival [FF6666]Chapter 2[-],[DECEA3]Квест[-] Выживание [FF6666]Глава 2[-]
+note3_startQuestDesc,items,questItem,,"Starts [FF6666]Chapter 2[-] of the quest [FF6666]Survival[-]\n\n[DECEA3]Warning! Canceling this quest will break the entire quest chain. It can only be restarted by an administrator.[-]","Запускает [FF6666]Главу 2[-] задания [FF6666]Выживание[-]\n\n[DECEA3]Внимание! Отмена этого задания прервет всю цепочку квеста. Повторный запуск возможен только с помощью администратора.[-]"
+note4_startQuest,items,questItem,,[DECEA3]Quest[-] Survival [FF6666]Chapter 3[-],[DECEA3]Квест[-] Выживание [FF6666]Глава 3[-]
+note4_startQuestDesc,items,questItem,,"Starts [FF6666]Chapter 3[-] of the quest [FF6666]Survival[-]\n\n[DECEA3]Warning! Canceling this quest will break the entire quest chain. It can only be restarted by an administrator.[-]","Запускает [FF6666]Главу 3[-] задания [FF6666]Выживание[-]\n\n[DECEA3]Внимание! Отмена этого задания прервет всю цепочку квеста. Повторный запуск возможен только с помощью администратора.[-]"
+note5_startQuest,items,questItem,,[DECEA3]Quest[-] Survival [FF6666]Chapter 4[-],[DECEA3]Квест[-] Выживание [FF6666]Глава 4[-]
+note5_startQuestDesc,items,questItem,,"Starts [FF6666]Chapter 4[-] of the quest [FF6666]Survival[-]\n\n[DECEA3]Warning! Canceling this quest will break the entire quest chain. It can only be restarted by an administrator.\n\nIt is also recommended to launch the task in the vicinity of medium and large cities.[-]","Запускает [FF6666]Главу 4[-] задания [FF6666]Выживание[-]\n\n[DECEA3]Внимание! Отмена этого задания прервет всю цепочку квеста. Повторный запуск возможен только с помощью администратора.\n\nТакже запуск задания рекомендуется выполнять в близости от средних и больших городов.[-]"
+note6_startQuest,items,questItem,,[DECEA3]Quest[-] Survival [FF6666]Chapter 5[-],[DECEA3]Квест[-] Выживание [FF6666]Глава 5[-]
+note6_startQuestDesc,items,questItem,,"Starts [FF6666]Chapter 5[-] of the quest [FF6666]Survival[-]\n\n[DECEA3]Warning! Canceling this quest will break the entire quest chain. It can only be restarted by an administrator.\n\nIt is also recommended to launch the task in the vicinity of medium and large cities.[-]","Запускает [FF6666]Главу 5[-] задания [FF6666]Выживание[-]\n\n[DECEA3]Внимание! Отмена этого задания прервет всю цепочку квеста. Повторный запуск возможен только с помощью администратора.\n\nТакже запуск задания рекомендуется выполнять в близости от средних и больших городов.[-]"
+note7_startQuest,items,questItem,,[DECEA3]Quest[-] Survival [FF6666]Chapter 6[-],[DECEA3]Квест[-] Выживание [FF6666]Глава 6[-]
+note7_startQuestDesc,items,questItem,,"Starts [FF6666]Chapter 6[-] of the quest [FF6666]Survival[-]\n\n[DECEA3]Warning! Canceling this quest will break the entire quest chain. It can only be restarted by an administrator.\n\nIt is also recommended to launch the task in the vicinity of large cities.[-]","Запускает [FF6666]Главу 6[-] задания [FF6666]Выживание[-]\n\n[DECEA3]Внимание! Отмена этого задания прервет всю цепочку квеста. Повторный запуск возможен только с помощью администратора.\n\nТакже запуск задания рекомендуется выполнять в близости от больших городов.[-]"
+note8_startQuest,items,questItem,,[DECEA3]Quest[-] Survival [FF6666]Chapter 7[-],[DECEA3]Квест[-] Выживание [FF6666]Глава 7[-]
+note8_startQuestDesc,items,questItem,,"Starts [FF6666]Chapter 7[-] of the quest [FF6666]Survival[-]\n\n[DECEA3]Warning! Canceling this quest will break the entire quest chain. It can only be restarted by an administrator.\n\nIt is also recommended to launch the task in the vicinity of large cities.[-]","Запускает [FF6666]Главу 7[-] задания [FF6666]Выживание[-]\n\n[DECEA3]Внимание! Отмена этого задания прервет всю цепочку квеста. Повторный запуск возможен только с помощью администратора.\n\nТакже запуск задания рекомендуется выполнять в близости от больших городов.[-]"
+note9_startQuest,items,questItem,,[DECEA3]Quest[-] Survival [FF6666]Chapter 8[-],[DECEA3]Квест[-] Выживание [FF6666]Глава 8[-]
+note9_startQuestDesc,items,questItem,,"Starts [FF6666]Chapter 8[-] of the quest [FF6666]Survival[-]\n\n[DECEA3]Warning! Canceling this quest will break the entire quest chain. It can only be restarted by an administrator.\n\nIt is also recommended to launch the task in the vicinity of large cities.[-]","Запускает [FF6666]Главу 8[-] задания [FF6666]Выживание[-]\n\n[DECEA3]Внимание! Отмена этого задания прервет всю цепочку квеста. Повторный запуск возможен только с помощью администратора.\n\nТакже запуск задания рекомендуется выполнять в близости от больших городов.[-]"
+
+startQuest2_statement,Quest,Quest Info,,Inspect the wound and remove the bone,Осмотрите рану и достаньте кость
+startQuest2_subtitle,Quest,Quest Info,,Inspect the wound and remove the bone,Осмотрите рану и достаньте кость
+startQuest2Name,Quest,Quest Info,,[DECEA3]Quest[-] Survival [FF6666]Chapter 1[-],[DECEA3]Квест[-] Выживание [FF6666]Глава 1[-]
+startQuest2Offer,Quest,Quest Info,,"[FF6666]Chapter 1. Self-healing[-]\nYou woke up and found a piece of paper with a message next to you. You don't remember who left it or when. Here's the first part of the message:\n\n«If you woke up and are reading this, it means you are not so easy to kill. I found you yesterday before sunset but there was no way to help. Judging by the external object sticking out of your leg, I was not sure that you would survive until the morning. But still, if you were able to, I left a couple of bandages next to you if you try to get that thing out...» [DECEA3]- Wild[-]","[FF6666]Глава 1. Самолечение[-]\nВы очнулись и нашли возле себя нашли клочек бумаги с сообщением. Кем и когда оно было оставлено вы не помните. Вот первая часть сообщения:\n\n«Если ты очнулся и читаешь это, значит тебя не так просто убить. Я нашел тебя вчера перед закатом но помочь не было возможности. Судя по внешнему предмету, торчавшему у тебя из ноги, я не был уверен что ты доживешь до утра. Но всеже если ты смог, я оставил пару бинтов рядом с тобой если ты попробуешь достать ту штуку...» [DECEA3]- Дикий[-]"
+
+startQuest3_statement,Quest,Quest Info,,Look around and kill the offender,Осмотритесь и убейте обидчика
+startQuest3_subtitle,Quest,Quest Info,,Look around and kill the offender,Осмотритесь и убейте обидчика
+startQuest3Name,Quest,Quest Info,,[DECEA3]Quest[-] Survival [FF6666]Chapter 2[-],[DECEA3]Квест[-] Выживание [FF6666]Глава 2[-]
+startQuest3Offer,Quest,Quest Info,,"[FF6666]Chapter 2. The Offender[-]\nHere's the second part of the message:\n\n«When I was examining you, I heard some movement nearby, I'm not sure that this creature will abandon its prey. However, it apparently doesn't have the strength to attack. In any case, you have some time to recover. Try to patch yourself up before looking for her...» [DECEA3]- Wild[-]","[FF6666]Глава 2. Обидчик[-]\nВот вторая часть сообщения:\n\n«Когда я тебя осматривал, неподалеку слышал какие-то движение, не уверен что эта тварь бросит свою добычу. Однако и напасть по всей видимости у нет сил. В любом случае у тебя есть какое время прийти в себя. Постарайся подлатать себя перед тем как ее искать...» [DECEA3]- Дикий[-]"
+
+startQuest4_statement,Quest,Quest Info,,Get a bonus from the trader,Получите бонус у торговца
+startQuest4_subtitle,Quest,Quest Info,,Get a bonus from the trader,Получите бонус у торговца
+startQuest4Name,Quest,Quest Info,,[DECEA3]Quest[-] Survival [FF6666]Chapter 3[-],[DECEA3]Квест[-] Выживание [FF6666]Глава 3[-]
+startQuest4Offer,Quest,Quest Info,,"[FF6666]Chapter 3. A Nice Bonus[-]\nHere's the last part of the message:\n\n«If you manage to get out, try to get to any trader. They all know me and will be able to give you supplies for the first time. Say that it is from me.» [DECEA3]- Wild[-]","[FF6666]Глава 3. Приятный бонус[-]\nВот последняя часть сообщения:\n\n«Если тебе удасться выкарабкаться постарайся добраться до любого торговца. Они все меня знают и смогут дать тебе припасы на первое время. Скажи что от меня.» [DECEA3]- Дикий[-]"
+
+startQuest5Name,Quest,Quest Info,,[DECEA3]Quest[-] Survival [FF6666]Chapter 4[-],[DECEA3]Квест[-] Выживание [FF6666]Глава 4[-]
+startQuest5Offer,Quest,Quest Info,,"[FF6666]Chapter 4. Better Than Just Pipes[-]\n\n«If you're interested in a more powerful weapon, I have a task for you. Send to the coordinates and clear out a small location. Just be careful, there might be a lot of zombies there. You can choose the one you like from the trader.» [DECEA3]- Wild[-]","[FF6666]Глава 4. Лушче чем просто трубки[-]\n\n«Если тебя заинтересует оружие посильнее, у меня есть для тебя задание. Отправляй по координатам и зачисти небольшую локацию. Только осторожно, там может быть много зомби. У торговца ты сможешь выбрать понравившийся экзепляр.» [DECEA3]- Дикий[-]"
+
+startQuest6Name,Quest,Quest Info,,[DECEA3]Quest[-] Survival [FF6666]Chapter 5[-],[DECEA3]Квест[-] Выживание [FF6666]Глава 5[-]
+startQuest6Offer,Quest,Quest Info,,"[FF6666]Chapter 5. Better guns[-]\n\n«If you're interested in a more powerful weapon, I have a task for you. Send to the coordinates and clear out a medium location. Just be careful, there might be a lot of zombies there. You can choose the one you like from the trader.» [DECEA3]- Wild[-]","[FF6666]Глава 5. Пушки получше[-]\n\n«Если тебя заинтересует оружие посильнее, у меня есть для тебя задание. Отправляй по координатам и зачисти средняя локацию. Только осторожно, там может быть много зомби. У торговца ты сможешь выбрать понравившийся экзепляр.» [DECEA3]- Дикий[-]"
+
+startQuest7Name,Quest,Quest Info,,[DECEA3]Quest[-] Survival [FF6666]Chapter 6[-],[DECEA3]Квест[-] Выживание [FF6666]Глава 6[-]
+startQuest7Offer,Quest,Quest Info,,"[FF6666]Chapter 6. Firearm power[-]\n\n«If you are interested in a powerful weapon, I have a task for you. Send to the coordinates and clear a large location. Just be careful, there may be a lot of zombies there. You can choose the one you like from the trader.» [DECEA3]- Wild[-]","[FF6666]Глава 6. Огнестрельная мощь[-]\n\n«Если тебя заинтересует мощное оружие, у меня есть для тебя задание. Отправляй по координатам и зачисти большую локацию. Только осторожно, там может быть много зомби. У торговца ты сможешь выбрать понравившийся экзепляр.» [DECEA3]- Дикий[-]"
+
+startQuest8Name,Quest,Quest Info,,[DECEA3]Quest[-] Survival [FF6666]Chapter 7[-],[DECEA3]Квест[-] Выживание [FF6666]Глава 7[-]
+startQuest8Offer,Quest,Quest Info,,"[FF6666]Chapter 7. Firearm power[-]\n\n«If you are interested in a powerful weapon, I have a task for you. Send to the coordinates and clear a large location. Just be careful, there may be a lot of zombies there. You can choose the one you like from the trader.» [DECEA3]- Wild[-]","[FF6666]Глава 7. Огнестрельная мощь[-]\n\n«Если тебя заинтересует мощное оружие, у меня есть для тебя задание. Отправляй по координатам и зачисти большую локацию. Только осторожно, там может быть много зомби. У торговца ты сможешь выбрать понравившийся экзепляр.» [DECEA3]- Дикий[-]"
+
+startQuest9Name,Quest,Quest Info,,[DECEA3]Quest[-] Survival [FF6666]Chapter 8[-],[DECEA3]Квест[-] Выживание [FF6666]Глава 8[-]
+startQuest9Offer,Quest,Quest Info,,"[FF6666]Chapter 8. Experimental samples[-]\n\n«If you are interested in experimental weapons, I have a task for you. Send to the coordinates and clear out an extreme location. Just be careful, there may be a lot of zombies there. You can choose the one you like from the trader.» [DECEA3]- Wild[-]","[FF6666]Глава 8. Экспериментальные образцы[-]\n\n«Если тебя заинтересует экспериментальное оружие, у меня есть для тебя задание. Отправляй по координатам и зачисти экстримальную локацию. Только осторожно, там может быть много зомби. У торговца ты сможешь выбрать понравившийся экзепляр.» [DECEA3]- Дикий[-]"
+
+
+buffStartBleedingName,buffs,buff,,Bleeding wound,Кровоточащия рана 
+
 bookStartSupplyCache,items,questItem,,[DECEA3]Quest[-] Supply cache,[DECEA3]Квест[-] Тайник с припасами
 bookStartSupplyCacheDesc,items,questItem,,"Quest to find a supply cache from surviving settlers\n\n[DECEA3]Warning! This quest may be deadly. Prepare thoroughly before attempting it[-]","Задание на поиск тайника с припасами от выживших поселенцев\n\n[DECEA3]Внимание! Задание может быть смертельно опасным. Основательно подготовтесь прежде чем приступуть к нему[-]"
 
@@ -91,3 +150,59 @@ RareSamples9Desc,Quest,Quest Info,,"[FFB800]Chapter 9. Big uncles[-]\n\n«I thin
 RareSamples10Name,Quest,Quest Info,,[DECEA3]Quest[-] Rare Samples [FFB800]Chapter 10[-],[DECEA3]Квест[-] Редкие образцы [FFB800]Глава 10[-]
 RareSamples10Offer,Quest,Quest Info,,"[FFB800]Chapter 10. Nice to meet you[-]\n\n«You are simply a hero. How you managed to survive after all this, for me personally, remains a mystery. In any case, your merits are undeniable and very soon we will be able to secure the Quarantine Zone as much as possible. Of course, clearing the entire zone requires a lot of time and effort. But thanks to you, this moment has become much closer. If you continue the hunt, we are always ready to help with resources and ammunition, in return we expect from you all the samples that you can find. \nI am sure we will still be able to surprise each other and good luck in the wasteland!» [DECEA3]- Adel[-]","[FFB800]Глава 10. Рада знакомству[-]\n\n«Ты просто герой. Как тебе удалось выжить после всего этого, лично для меня, остается загадкой. В любом, случае твои заслуги неоспоримы и совсем скоро мы сможем максимально обезопасить Зону карантина. Разумеется, очистка всей зоны требует много времени и сил. Но благодаря тебе это этот момент стал значительно ближе. Если ты продолжишь охоту, мы всегда готовы помочь ресурсами и боеприпасами, взамен мы ждем от тебя все образцы которые ты сможешь найти.\nУверена мы еще сможем друг друга удивить и Удачи в пустоше!» [DECEA3]- Адель[-]"
 RareSamples10Desc,Quest,Quest Info,,"[FFB800]Chapter 10. Nice to meet you[-]\n\n«You are simply a hero. How you managed to survive after all this, for me personally, remains a mystery. In any case, your merits are undeniable and very soon we will be able to secure the Quarantine Zone as much as possible. Of course, clearing the entire zone requires a lot of time and effort. But thanks to you, this moment has become much closer. If you continue the hunt, we are always ready to help with resources and ammunition, in return we expect from you all the samples that you can find. \nI am sure we will still be able to surprise each other and good luck in the wasteland!» [DECEA3]- Adel\n\nWarning! Canceling this task will break the entire quest chain. Restarting is only possible with the help of an administrator.[-]","[FFB800]Глава 10. Рада знакомству[-]\n\n«Ты просто герой. Как тебе удалось выжить после всего этого, лично для меня, остается загадкой. В любом, случае твои заслуги неоспоримы и совсем скоро мы сможем максимально обезопасить Зону карантина. Разумеется, очистка всей зоны требует много времени и сил. Но благодаря тебе это этот момент стал значительно ближе. Если ты продолжишь охоту, мы всегда готовы помочь ресурсами и боеприпасами, взамен мы ждем от тебя все образцы которые ты сможешь найти.\nУверена мы еще сможем друг друга удивить и Удачи в пустоше!» [DECEA3]- Адель\n\nВнимание! Отмена этого задания прервет всю цепочку квеста. Повторный запуск возможен только с помощью администратора.[-]"
+
+questRewardPistolBundleT1,items,Item,,Pistol Bundle,Комплект с пистолетом
+questRewardPistolBundleT1Desc,items,Item,,"A Pistol and some 9mm ammo","Пистолет и патроны 9mm"
+questRewardShotgunBundleT1,items,Item,,Double Barrel Shotgun Bundle,Комплект с двухстволкой
+questRewardShotgunBundleT1Desc,items,Item,,"A Double Barrel Shotgun and some shells","Двухстволка и патроны"
+questRewardRifleBundletT1,items,Item,,Hunting Rifle Bundle,Комплект с охотничьим ружьем
+questRewardRifleBundletT1Desc,items,Item,,"A Hunting Rifle and some 7.62mm ammo","Охотничье ружье и патроны 7.62mm"
+questRewardMachineGunBundleT1,items,Item,,AK-47 Bundle,Комплект с AK-47
+questRewardMachineGunBundleT1Desc,items,Item,,"A AK-47 and some 7.62mm ammo","AK-47 и патроны 7.62mm"
+
+questRewardPistolBundleT2,items,Item,,Magnum Bundle,Комплект с магнумом
+questRewardPistolBundleT2Desc,items,Item,,"A Magnum and some .44mm ammo","Магнум и патроны .44mm"
+questRewardShotgunBundleT2,items,Item,,Pump Shotgun Bundle,Комплект с помповым дробовиком
+questRewardShotgunBundleT2Desc,items,Item,,"A Pump Shotgun and some shells","Помповый дробовик и патроны"
+questRewardRifleBundletT2,items,Item,,Lever Action rifle Bundle,Комплект с винтовкой рычажного действия
+questRewardRifleBundletT2Desc,items,Item,,"A Lever Action rifle and some 7.62mm ammo","Винтовка рычажного дейтсвия и патроны 7.62mm"
+questRewardMachineGunBundleT2,items,Item,,Tactical Assault Rifle Bundle,Комплект с тактической штурмовой винтовкой
+questRewardMachineGunBundleT2Desc,items,Item,,"A Tactical Assault Rifle and some 7.62mm ammo","Тактическая штурмовая винтовка и патроны 7.62mm"
+
+questRewardPistolBundleT3,items,Item,,SMG-5 Bundle,Комплект с SMG-5
+questRewardPistolBundleT3Desc,items,Item,,"A SMG-5 and some 9mm ammo","SMG-5 и патроны 9mm"
+questRewardShotgunBundleT3,items,Item,,Auto Shotgun Bundle,Комплект с автоматическим дробовиком
+questRewardShotgunBundleT3Desc,items,Item,,"A Auto Shotgun and some shells","Автоматический дробовик и патроны"
+questRewardRifleBundletT3,items,Item,,Sniper Rifle Bundle,Комплект со снайперской винтовкой
+questRewardRifleBundletT3Desc,items,Item,,"A Sniper Rifle and some 7.62mm ammo","Снайперская винтовка и патроны 7.62mm"
+questRewardMachineGunBundleT3,items,Item,,M60 Bundle,Комплект с M60
+questRewardMachineGunBundleT3Desc,items,Item,,"A M60 and some 7.62mm ammo","M60 и патроны 7.62mm"
+
+questRewardSledgehammerImpT4,items,Item,,Sledgehammer [DECEA3]Improved[-] Bundle,Комплект с [DECEA3]Улучшенной[-] кувалдой
+questRewardSledgehammerImpT4Desc,items,Item,,"A Sledgehammer [DECEA3]Improved[-]","[DECEA3]Улучшенная[-] Кувалда"
+questRewardClubImpBundleT4,items,Item,,Club [DECEA3]Improved[-] Bundle,Комплект с [DECEA3]Улучшенной[-] дубиной
+questRewardClubImpBundleT4Desc,items,Item,,"A Club [DECEA3]Improved[-]","[DECEA3]Улучшенная[-] Дубина"
+questRewardSpearImpBundleT4,items,Item,,Spear [DECEA3]Improved[-] Bundle,Комплект с [DECEA3]Улучшенным[-] копьем
+questRewardSpearImpBundleT4Desc,items,Item,,"A Spear [DECEA3]Improved[-]","[DECEA3]Улучшенное[-] Копье"
+questRewardPlasmaBatonBundletT4,items,Item,,Plasma Baton [DECEA3]Improved[-] Bundle,Комплект с [DECEA3]Улучшенным[-] жезлом
+questRewardPlasmaBatonBundletT4Desc,items,Item,,"A Plasma Baton [DECEA3]Improved[-]","[DECEA3]Улучшенное[-] Жезлом"
+questRewardMacheteImpBundleT4,items,Item,,Machete [DECEA3]Improved[-] Bundle,Комплект с [DECEA3]Улучшенным[-] мачете
+questRewardMacheteImpBundleT4Desc,items,Item,,"A Machete Baton [DECEA3]Improved[-]","[DECEA3]Улучшенное[-] Мачете"
+
+questRewardPistolBundleT5,items,Item,,SMG-5 [DECEA3]Improved[-] Bundle,Комплект с [DECEA3]Улучшенным[-] SMG-5
+questRewardPistolBundleT5Desc,items,Item,,"A SMG-5 [DECEA3]Improved[-] and some 9mm ammo","[DECEA3]Улучшенное[-] SMG-5 и патроны 9mm"
+questRewardShotgunBundleT5,items,Item,,Auto Shotgun [DECEA3]Improved[-] Bundle,Комплект с [DECEA3]Улучшенным[-] автоматическим дробовиком
+questRewardShotgunBundleT5Desc,items,Item,,"A Auto Shotgun [DECEA3]Improved[-] and some shells","[DECEA3]Улучшенный[-] Автоматический дробовик и патроны"
+questRewardRifleBundletT5,items,Item,,Sniper Rifle [DECEA3]Improved[-] Bundle,Комплект с [DECEA3]Улучшенной[-] снайперской винтовкой
+questRewardRifleBundletT5Desc,items,Item,,"A Sniper Rifle [DECEA3]Improved[-] and some 7.62mm ammo","[DECEA3]Улучшенная[-] Снайперская винтовка и патроны 7.62mm"
+questRewardMachineGunBundleT5,items,Item,,M60 [DECEA3]Improved[-] Bundle,Комплект с [DECEA3]Улучшенным[-] M60
+questRewardMachineGunBundleT5Desc,items,Item,,"A M60 [DECEA3]Improved[-] and some 7.62mm ammo","[DECEA3]Улучшенный[-] M60 и патроны 7.62mm"
+
+
+
+
+
+
+
+
+

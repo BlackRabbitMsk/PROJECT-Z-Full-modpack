@@ -47,7 +47,7 @@
 					<requirement class="GroupLiveCount">
 						<property name="target_group" value="zombies"/>
 						<property name="operation" value="LessThan"/>
-						<property name="count" value="3"/>
+						<property name="count" value="2"/>
 					</requirement>
 						
 					<action class="Delay">
@@ -69,7 +69,6 @@
 		
 		<!-- Launching a wave of Medium cases -->
 		<action_sequence name="MediumCase_Event">
-			<property name="action_type" value="Game"/>
 			<property name="allow_while_dead" value="false"/>
 			<property name="refund_inactivity" value="false"/>
 			
@@ -100,43 +99,43 @@
 				<property name="can_disable" value="false" />
 			</action>
 			
-			<loop class="While">
-				<requirement class="CVar">
-					<property name="cvar" value="$MediumCase_Status"/>
-					<property name="operation" value="Equals" />
-					<property name="value" value="1" />
-				</requirement>
-				
+			<loop class="While">		
 				<property name="phase" value="1"/>
-					<decision class="If">
-						<requirement class="GroupLiveCount">
-							<property name="target_group" value="zombies"/>
-							<property name="operation" value="LessThan"/>
-							<property name="count" value="3"/>
-						</requirement>
+				
+				<decision class="If">
+					<requirement class="CVar">
+						<property name="cvar" value="$MediumCase_Status"/>
+						<property name="operation" value="Equals" />
+						<property name="value" value="1" />
+					</requirement>
 						
-						<action class="Delay">
-							<property name="time" value=".2"/>
-						</action>
+					<requirement class="GroupLiveCount">
+						<property name="target_group" value="zombies"/>
+						<property name="operation" value="LessThan"/>
+						<property name="count" value="3"/>
+					</requirement>
 						
-						<action class="SpawnEntity">
-							<property name="entity_names" value="zombieSkateboarder,zombieTomClark,zombieBoeFeral,zombieSpiderFeral,zombieFatHawaiianFeral,zombieLumberjackFeral,animalDireWolf,zombieFatCopFeral,zombiePartyGirlFeral,zombieSteveRadiated,zombieJanitorRadiated,zombieFemaleFatRadiated,zombieWightRadiated,zombieScreamerRadiated,zombieYoRadiated,zombieBurntElite,zombieTomClarkElite" param1="zombiename" />
-							<property name="spawn_count" value="1"/>
-							<property name="air_spawn" value="true"/>
-							<property name="max_distance" value="30"/>
-							<property name="min_distance" value="20"/>
-							<property name="add_to_group" value="zombies"/>
-							<property name="safe_spawn" value="true"/>
-							<property name="spawn_type" value="NearPosition"/>
-							<property name="add_buffs" value="EnemyDot_Buff,Zombie_BlockDamage_Buff" />
-						</action>
+					<action class="Delay">
+						<property name="time" value=".2"/>
+					</action>
+						
+					<action class="SpawnEntity">
+						<property name="entity_names" value="zombieSkateboarder,zombieTomClark,zombieBoeFeral,zombieSpiderFeral,zombieFatHawaiianFeral,zombieLumberjackFeral,animalDireWolf,zombieFatCopFeral,zombiePartyGirlFeral,zombieSteveRadiated,zombieJanitorRadiated,zombieFemaleFatRadiated,zombieWightRadiated,zombieScreamerRadiated,zombieYoRadiated,zombieBurntElite,zombieTomClarkElite" param1="zombiename" />
+						<property name="spawn_count" value="1"/>
+						<property name="air_spawn" value="true"/>
+						<property name="max_distance" value="30"/>
+						<property name="min_distance" value="20"/>
+						<property name="add_to_group" value="zombies"/>
+						<property name="safe_spawn" value="true"/>
+						<property name="spawn_type" value="NearPosition"/>
+						<property name="add_buffs" value="EnemyDot_Buff,Zombie_BlockDamage_Buff" />
+					</action>
 				</decision>
 			</loop>
 		</action_sequence>
 		
 		<!-- Launching a wave of Big cases -->
 		<action_sequence name="BigCase_Event">
-			<property name="action_type" value="Game"/>
 			<property name="allow_while_dead" value="false"/>
 			<property name="refund_inactivity" value="false"/>
 			
@@ -167,36 +166,37 @@
 				<property name="can_disable" value="false" />
 			</action>
 			
-			<loop class="While">
-				<requirement class="CVar">
-					<property name="cvar" value="$BigCase_Status"/>
-					<property name="operation" value="Equals" />
-					<property name="value" value="1" />
-				</requirement>
-				
+			<loop class="While">	
 				<property name="phase" value="1"/>
-					<decision class="If">
-						<requirement class="GroupLiveCount">
-							<property name="target_group" value="zombies"/>
-							<property name="operation" value="LessThan"/>
-							<property name="count" value="5"/>
-						</requirement>
+				
+				<decision class="If">
+					<requirement class="CVar">
+						<property name="cvar" value="$BigCase_Status"/>
+						<property name="operation" value="Equals" />
+						<property name="value" value="1" />
+					</requirement>
+					
+					<requirement class="GroupLiveCount">
+						<property name="target_group" value="zombies"/>
+						<property name="operation" value="LessThan"/>
+						<property name="count" value="3"/>
+					</requirement>
 						
-						<action class="Delay">
-							<property name="time" value=".2"/>
-						</action>
+					<action class="Delay">
+						<property name="time" value=".2"/>
+					</action>
 						
-						<action class="SpawnEntity">
-							<property name="entity_names" value="zombieNurseFeral,zombieDarleneFeral,zombieBoeFeral,zombieSpiderFeral,zombieSkateboarderFeral,zombieBikerRadiated,animalDireWolf,zombieSkateboarderRadiated,zombieBowlerRadiated,zombieFatCopRadiated,zombieJanitorRadiated,zombieMarleneRadiated,zombieFemaleFatElite,zombieDemolitionElite,zombieSoldierElite,zombieLumberjackElite,zombieLabElite,zombieInmateElite,zombieJoeElite" />
-							<property name="spawn_count" value="1"/>
-							<property name="air_spawn" value="true"/>
-							<property name="max_distance" value="30"/>
-							<property name="min_distance" value="20"/>
-							<property name="add_to_group" value="zombies"/>
-							<property name="safe_spawn" value="true"/>
-							<property name="spawn_type" value="NearPosition"/>
-							<property name="add_buffs" value="EnemyDot_Buff,Zombie_BlockDamage_Buff"/>
-						</action>
+					<action class="SpawnEntity">
+						<property name="entity_names" value="zombieNurseFeral,zombieDarleneFeral,zombieBoeFeral,zombieSpiderFeral,zombieSkateboarderFeral,zombieBikerRadiated,animalDireWolf,zombieSkateboarderRadiated,zombieBowlerRadiated,zombieFatCopRadiated,zombieJanitorRadiated,zombieMarleneRadiated,zombieFemaleFatElite,zombieDemolitionElite,zombieSoldierElite,zombieLumberjackElite,zombieLabElite,zombieInmateElite,zombieJoeElite" />
+						<property name="spawn_count" value="1"/>
+						<property name="air_spawn" value="true"/>
+						<property name="max_distance" value="30"/>
+						<property name="min_distance" value="20"/>
+						<property name="add_to_group" value="zombies"/>
+						<property name="safe_spawn" value="true"/>
+						<property name="spawn_type" value="NearPosition"/>
+						<property name="add_buffs" value="EnemyDot_Buff,Zombie_BlockDamage_Buff"/>
+					</action>
 				</decision>
 			</loop>
 		</action_sequence>

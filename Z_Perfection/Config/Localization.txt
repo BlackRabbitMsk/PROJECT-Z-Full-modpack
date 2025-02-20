@@ -1,5 +1,10 @@
 Key,Source,Context,Changes,English,Russian
 
+MagazineNotes,items,Resources,,Notes from magazines,Заметки из журналов
+MagazineNotesDesc,items,Resources,,"By collecting enough notes, you can get an additional skill point.","Собрав достаточное количество заметок, вы сможете получить дополнительное очко навыков"
+Magazine_AddSkillPoint,items,Books,,Improvement Journal,Журнал совершенствования
+Magazine_AddSkillPointDesc,items,Resources,,"When you read it, you will receive 1 skill point.","При прочтении вы получите 1 очко навыков"
+
 buffXPBonusName,buffs,buff,,Bonus to experience gained, Бонус к получаемому опыту
 buffXPBonusTooltip,buffs,buff,,Experience gained increased by 25%,Получаемый опыт увеличен на 25%
 buffXPBonusIncDesc,buffs,Buff,,"You have a good teacher next to you.\nAll experience gained is increased by [DECEA3]25%[-]","Рядом с вами хороший учитель.\nВесь получаемый опыт увеличена на [DECEA3]25%[-]"

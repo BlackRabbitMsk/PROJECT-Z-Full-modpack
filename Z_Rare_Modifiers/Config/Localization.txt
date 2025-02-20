@@ -1,5 +1,8 @@
 Key,Source,Context,Changes,English,Russian
 
+NerdNotes,items,Books,,Nerd Notes,Записки ботаника
+NerdNotesDesc,items,Resources,,"This is a unique journal that contains a note on the accelerated creation of any items. Holding this item in your hands while crafting will speed up the creation of any items in any station by 15%","Это уникальный журнал который содержит заметка по ускоренному созданию любых предметов. Удерживая этот предмет в руках при крафте вы ускорите создание любых предметов в любой станции на 15%"
+
 modSurgicalBladeSchematic,item_modifiers,Mod,,Surgical Blade Mod Schematic,Схема модификации «Хирургическое лезвие»
 
 modRareArmorARResistHelmet,item_modifiers,mod,,Defender-Z Mod. [DECEA3]Head[-],Мод Защитник-Z. [DECEA3]Голова[-]
@@ -133,19 +136,19 @@ modGunForegripUniqueDesc,item_modifiers,mod,,"Unique modification, significantly
 modGunBipodImp,item_modifiers,mod,,[DECEA3]Improved[-] Bipod Mod,Мод «Сошка». [DECEA3]Улучшенный[-]
 modGunBipodImpDesc,item_modifiers,mod,,"Thanks to the improvement, it significantly increases weapon accuracy and controllability when aiming.","Благодаря улучшению, значительно увеличивает точность оружия и управляемость при наведении"
 
-modGunBipodUnique,item_modifiers,mod,,[FFB800]Unique[-] Bipod Mod,Мод «Сошка». [DECEA3]Уникальный[-]
+modGunBipodUnique,item_modifiers,mod,,[FFB800]Unique[-] Bipod Mod,Мод «Сошка». [FFB800]Уникальный[-]
 modGunBipodUniqueDesc,item_modifiers,mod,,"Unique modification, it significantly increases weapon accuracy and controllability when aiming.","Уникальная модификация, значительно увеличивает точность оружия и управляемость при наведении"
 
 modGunSoundSuppressorSilencerImp,item_modifiers,mod,,[DECEA3]Improved[-] Silencer Mod,Мод «Глушитель». [DECEA3]Улучшенный[-]
 modGunSoundSuppressorSilencerImpDesc,item_modifiers,mod,,"Thanks to the improvement, it significantly reduces the volume of the shot, while the maximum range and damage are slightly reduced. The damage bonus from stealth is increased by [DECEA3]50%[-]","Благодаря улучшению, значительно снижает громкость выстрела, при этом максимальная дальность стрельбы и урон немного уменьшены. Бонус к урону из скрытности увеличен на [DECEA3]50%[-]"
 
-modGunSoundSuppressorSilencerUnique,item_modifiers,mod,,[FFB800]Unique[-] Silencer Mod,Мод «Глушитель». [DECEA3]Уникальный[-]
+modGunSoundSuppressorSilencerUnique,item_modifiers,mod,,[FFB800]Unique[-] Silencer Mod,Мод «Глушитель». [FFB800]Уникальный[-]
 modGunSoundSuppressorSilencerUniqueDesc,item_modifiers,mod,,"Unique modification, it significantly reduces the volume of the shot, while the maximum firing range is increased by [DECEA3]10%[-]. The damage bonus from stealth is increased by [DECEA3]150%[-]","Уникальная модификация, значительно снижает громкость выстрела, при этом максимальная дальность стрельбы увеличена на [DECEA3]10%[-]. Бонус к урону из скрытности увеличен на [DECEA3]150%[-]"
 
 modGunBoosterExp,item_modifiers,mod,,[DECEA3]Experimental[-] Gun Booster Mod,Мод «Бустер оружия». [DECEA3]Экспериментальный[-]
-modGunBoosterExpDesc,item_modifiers,mod,,"An experimental modification, when activated it increases the rate of fire not [DECEA3]50%[-], but also significantly increases the rate of weapon breakdown","Экспериментальная модификация, при активации увеличивает скорострельность не [DECEA3]50%[-], но также значительно увеличивает скорость поломки оружия"
+modGunBoosterExpDesc,item_modifiers,mod,,"An experimental modification, when activated it increases the rate of fire not [DECEA3]50%[-], but also significantly increases the rate of weapon breakdown","Экспериментальная модификация, при активации увеличивает скорострельность на [DECEA3]50%[-], но также значительно увеличивает скорость поломки оружия"
 
-modGunBoosterUnique,item_modifiers,mod,,[FFB800]Unique[-] Gun Booster Mod,Мод «Бустер оружия». [DECEA3]Уникальный[-]
+modGunBoosterUnique,item_modifiers,mod,,[FFB800]Unique[-] Gun Booster Mod,Мод «Бустер оружия». [FFB800]Уникальный[-]
 modGunBoosterUniqueDesc,item_modifiers,mod,,"Unique modification, when activated, increases the rate of fire by [DECEA3]2 times[-], but also significantly increases the rate of weapon breakdown","Уникальная модификация, при активации увеличивает скорострельность в [DECEA3]2 раза[-], но также значительно увеличивает скорость поломки оружия"
 
 modGunDamageAccumulatorExp,item_modifiers,mod,,[DECEA3]Experimental[-] Damage Accumulator Mod,Мод «Накопитель урона». [DECEA3]Экспериментальный[-]

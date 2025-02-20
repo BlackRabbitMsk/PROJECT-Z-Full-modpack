@@ -80,8 +80,8 @@
 			<property name="DescriptionKey" value="modElongatedCoreDesc"/>
 			
 			<effect_group tiered="false">
-				<passive_effect name="MaxRange" operation="base_add" value="1.5" tags="perkMiner69r"/>
-				<passive_effect name="BlockRange" operation="base_set" value="1.5" tags="perkMiner69r"/>
+				<passive_effect name="MaxRange" operation="base_add" value="1" tags="perkMiner69r"/>
+				<passive_effect name="BlockRange" operation="base_set" value="1" tags="perkMiner69r"/>
 				<passive_effect name="HarvestCount" operation="perc_add" value=".2" tags="Harvesting"/>
 				<passive_effect name="PlayerExpGain" operation="perc_add" value="-.1" tags="Harvesting"/>
 			</effect_group>
@@ -125,6 +125,7 @@
 			<property name="CustomIcon" value="modMeleeBunkerBuster"/>
 			<property name="CustomIconTint" value="FFB800"/>
 			<property name="DescriptionKey" value="modLuckyMiningUniqueDesc"/>
+			<property name="Group" value="RareMods"/>
 			
 			<effect_group tiered="false">
 				<passive_effect name="HarvestCount" operation="base_add" value="1" tags="modPreciousMetalsUnique"/>
@@ -187,6 +188,7 @@
 			<property name="CustomIcon" value="decoCarMotorFlat"/>
 			<property name="CustomIconTint" value="882FA7"/>
 			<property name="DescriptionKey" value="modJetPackDesc"/>
+			<property name="Group" value="RareMods"/>
 			
 			<effect_group tiered="false">			
 				<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="buffJetPackReload">
@@ -379,6 +381,7 @@
 			<property name="EconomicValue" value="6000"/>
 			<property name="CustomIcon" value="modArmorCustomizedFittings"/>
 			<property name="CustomIconTint" value="FFB800"/>
+			<property name="Group" value="RareMods"/>
 			
 			<effect_group>
 				<passive_effect name="Mobility" operation="perc_add" value=".03"/>
@@ -399,6 +402,7 @@
 			<property name="EconomicValue" value="6000"/>
 			<property name="CustomIcon" value="modArmorBandolier"/>
 			<property name="CustomIconTint" value="FFB800"/>
+			<property name="Group" value="RareMods"/>
 			
 			<effect_group>
 				<passive_effect name="CarryCapacity" operation="base_add" value="6"/>
@@ -436,6 +440,7 @@
 			<property name="EconomicValue" value="6000"/>
 			<property name="CustomIcon" value="modArmorTreasureHunter"/>
 			<property name="CustomIconTint" value="FFB800"/>
+			<property name="Group" value="RareMods"/>
 			
 			<effect_group>
 				<passive_effect name="PlayerExpGain" operation="perc_add" value=".3"/>
@@ -491,6 +496,7 @@
 			<property name="CustomIcon" value="modMeleeSerratedBlade"/>
 			<property name="CustomIconTint" value="FFB800"/>
 			<property name="DescriptionKey" value="modSurgicalBladeUniqueDesc"/>
+			<property name="Group" value="RareMods"/>
 			
 			<effect_group tiered="false">
 				<passive_effect name="HarvestCount" operation="perc_add" value=".4" tags="butcherHarvest"/>
@@ -519,6 +525,7 @@
 			<property name="CustomIcon" value="modGunDrumMagazineExtender"/>
 			<property name="CustomIconTint" value="FFB800"/>
 			<property name="DescriptionKey" value="modGunDrumMagazineExtenderUniqueDesc"/>
+			<property name="Group" value="RareMods"/>
 			
 			<effect_group tiered="false">
 				<passive_effect name="MagazineSize" operation="perc_add" value="2"/>
@@ -549,6 +556,7 @@
 			<property name="CustomIcon" value="modGunMagazineExtender"/>
 			<property name="CustomIconTint" value="FFB800"/>
 			<property name="DescriptionKey" value="modGunMagazineExtenderUniqueDesc"/>
+			<property name="Group" value="RareMods"/>
 			
 			<effect_group tiered="false">
 				<passive_effect name="MagazineSize" operation="perc_add" value="1.5"/>
@@ -593,6 +601,7 @@
 			<property name="CustomIcon" value="modGunMeleeRadRemover"/>
 			<property name="CustomIconTint" value="FFB800"/>
 			<property name="DescriptionKey" value="modGunMeleeRadRemoverUniqueDesc"/>
+			<property name="Group" value="RareMods"/>
 			
 			<effect_group tiered="false">
 				<passive_effect name="EntityDamage" operation="perc_add" value=".5">
@@ -651,6 +660,7 @@
 			<property name="CustomIcon" value="modGunCrippleEm"/>
 			<property name="CustomIconTint" value="FFB800"/>
 			<property name="DescriptionKey" value="modGunCrippleEmUniqueDesc"/>
+			<property name="Group" value="RareMods"/>
 			
 			<effect_group tiered="false">
 				<requirement name="EntityTagCompare" target="other" tags="walker"/>
@@ -692,6 +702,7 @@
 			<property name="CustomIcon" value="gunRifleT1HuntingRifleParts"/>
 			<property name="CustomIconTint" value="FFB800"/>
 			<property name="DescriptionKey" value="modGunRiflePartsUniqueDesc"/>
+			<property name="Group" value="RareMods"/>
 			
 			<effect_group tiered="false">
 				<passive_effect name="DegradationMax" operation="perc_add" value="2"/>
@@ -722,6 +733,7 @@
 			<property name="CustomIcon" value="gunHandgunT1PistolParts"/>
 			<property name="CustomIconTint" value="FFB800"/>
 			<property name="DescriptionKey" value="modGunPistolPartsUniqueDesc"/>
+			<property name="Group" value="RareMods"/>
 			
 			<effect_group tiered="false">
 				<passive_effect name="DegradationMax" operation="perc_add" value="2"/>
@@ -752,6 +764,7 @@
 			<property name="CustomIcon" value="gunMGT1AK47Parts"/>
 			<property name="CustomIconTint" value="FFB800"/>
 			<property name="DescriptionKey" value="modGunM60PartsUniqueDesc"/>
+			<property name="Group" value="RareMods"/>
 			
 			<effect_group tiered="false">
 				<passive_effect name="DegradationMax" operation="perc_add" value="2"/>
@@ -782,6 +795,7 @@
 			<property name="CustomIcon" value="gunShotgunT1DoubleBarrelParts"/>
 			<property name="CustomIconTint" value="FFB800"/>
 			<property name="DescriptionKey" value="modGunShotgunPartsUniqueDesc"/>
+			<property name="Group" value="RareMods"/>
 			
 			<effect_group tiered="false">
 				<passive_effect name="DegradationMax" operation="perc_add" value="2"/>
@@ -821,6 +835,7 @@
 			<property name="CustomIcon" value="modGunForegrip"/>
 			<property name="CustomIconTint" value="FFB800"/>
 			<property name="DescriptionKey" value="modGunForegripUniqueDesc"/>
+			<property name="Group" value="RareMods"/>
 			
 			<effect_group tiered="false">
 				<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.4"/>
@@ -866,6 +881,7 @@
 			<property name="CustomIcon" value="modGunBipod"/>
 			<property name="CustomIconTint" value="FFB800"/>
 			<property name="DescriptionKey" value="modGunBipodUniqueDesc"/>
+			<property name="Group" value="RareMods"/>
 			
 			<effect_group tiered="false">
 				<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.28"/>
@@ -1073,6 +1089,7 @@
 			<property name="CustomIcon" value="modGunSoundSuppressorSilencer"/>
 			<property name="CustomIconTint" value="FFB800"/>
 			<property name="DescriptionKey" value="modGunSoundSuppressorSilencerUniqueDesc"/>
+			<property name="Group" value="RareMods"/>
 			<!--Decreases sound footprint by x% -->
 			<item_property_overrides name="*">
 				<property name="Sound_start" value="pistol_s_fire"/>
@@ -1274,6 +1291,7 @@
 			<property name="CustomIcon" value="modGunTriggerGroupAutomatic"/>
 			<property name="CustomIconTint" value="FFB800"/>
 			<property name="DescriptionKey" value="modGunBoosterUniqueDesc"/>
+			<property name="Group" value="RareMods"/>
 			
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfItemActivate" action="AddBuff" buff="buffGunBooster2"/>
@@ -1311,6 +1329,7 @@
 			<property name="CustomIcon" value="modGunTriggerGroupSemi"/>
 			<property name="CustomIconTint" value="FFB800"/>
 			<property name="DescriptionKey" value="modGunDamageAccumulatorUniqueDesc"/>
+			<property name="Group" value="RareMods"/>
 			
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="buffGunDAc2"/>
@@ -1345,6 +1364,7 @@
 			<property name="CustomIcon" value="modVehicleSuperCharger"/>
 			<property name="CustomIconTint" value="FFB800"/>
 			<property name="EconomicValue" value="5000"/>
+			<property name="Group" value="RareMods"/>
 			<effect_group tiered="false">
 				<passive_effect name="VehicleMotorTorquePer" operation="perc_add" value=".6"/>
 				<passive_effect name="VehicleVelocityMaxPer" operation="perc_add" value=".9"/>
@@ -1356,6 +1376,7 @@
 			<property name="CustomIcon" value="modMeleeStunBatonRepulsor"/>
 			<property name="CustomIconTint" value="FF6666"/>
 			<property name="EconomicValue" value="5000"/>
+			<property name="Group" value="RareMods"/>
 			<effect_group tiered="false">
 				<passive_effect name="VehicleMotorTorquePer" operation="perc_add" value="2.4"/>
 				<passive_effect name="VehicleVelocityMaxPer" operation="perc_add" value="3.6"/>
@@ -1391,6 +1412,7 @@
 			<property name="CustomIcon" value="modVehicleReserveFuelTank"/>
 			<property name="CustomIconTint" value="FFB800"/>
 			<property name="EconomicValue" value="5000"/>
+			<property name="Group" value="RareMods"/>
 			<effect_group tiered="false">
 				<passive_effect name="VehicleFuelUsePer" operation="perc_add" value="-.8"/>
 				<passive_effect name="VehicleFuelMaxPer" operation="perc_set" value="3"/>
@@ -1427,6 +1449,7 @@
 			<property name="CustomIcon" value="modVehicleArmor"/>
 			<property name="CustomIconTint" value="FFB800"/>
 			<property name="EconomicValue" value="5000"/>
+			<property name="Group" value="RareMods"/>
 			<effect_group tiered="false">
 				<passive_effect name="VehicleEntityDamage" operation="perc_add" value="1.8"/>
 				<passive_effect name="VehicleBlockDamage" operation="perc_add" value="1.8"/>
